@@ -1,0 +1,262 @@
+{
+  "data": [{
+      "name": "4-120-0",
+      "category": 0,
+      "symbol": "roundRect",
+      "symbolSize": [80, 30],
+      "draggable": true
+    },
+    {
+      "name": "4-120-1",
+      "category": 0,
+      "symbol": "roundRect",
+      "symbolSize": [80, 30],
+      "draggable": true
+    },
+    {
+      "name": "4-120-2",
+      "category": 0,
+      "symbol": "roundRect",
+      "symbolSize": [80, 30],
+      "draggable": true
+    },
+    {
+      "name": "4-120-3",
+      "category": 1,
+      "symbol": "roundRect",
+      "symbolSize": [80, 30],
+      "draggable": true
+
+    },
+
+    {
+      "name": "4-120-4",
+      "category": 0,
+      "symbol": "roundRect",
+      "symbolSize": [80, 30],
+      "draggable": true
+    },
+    {
+      "name": "4-120-5",
+      "category": 2,
+      "symbol": "roundRect",
+      "symbolSize": [80, 30],
+      "draggable": true
+    },
+    {
+      "name": "4-120-6",
+      "category": 1,
+      "symbol": "roundRect",
+      "symbolSize": [80, 30],
+      "draggable": true
+    },
+
+    {
+      "name": "4-120-7",
+      "category": 1,
+      "symbol": "roundRect",
+      "symbolSize": [80, 30],
+      "draggable": true
+    },
+    {
+      "name": "4-120-8",
+      "category": 2,
+      "symbol": "roundRect",
+      "symbolSize": [80, 30],
+      "draggable": true
+    },
+    {
+      "name": "4-120-9",
+      "category": 3,
+      "symbol": "roundRect",
+      "symbolSize": [80, 30],
+      "draggable": true
+    },
+    {
+      "name": "4-120-10",
+      "category": 3,
+      "symbol": "roundRect",
+      "symbolSize": [80, 30],
+      "draggable": true
+    },
+    {
+      "name": "4-120-11",
+      "category": 2,
+      "symbol": "roundRect",
+      "symbolSize": [80, 30],
+      "draggable": true
+    },
+    {
+      "name": "4-120-12",
+      "category": 3,
+      "symbol": "roundRect",
+      "symbolSize": [80, 30],
+      "draggable": true
+    },
+    {
+      "name": "4-120-13",
+      "category": 3,
+      "symbol": "roundRect",
+      "symbolSize": [80, 30],
+      "draggable": true
+    }
+  ],
+  "links": [{
+      "source": "4-120-0",
+      "target": "4-120-1",
+      "value": "60次",
+      "lineStyle": {
+        "normal": {
+          "color": "red",
+          "width": 3
+        }
+      }
+    },
+    
+    {
+      "source": "4-120-0",
+      "target": "4-120-2",
+      "value": "55次",
+      "lineStyle": {
+        "normal": {
+          "color": "red",
+          "width": 3
+        }
+      }
+    },
+
+    {
+      "source": "4-120-0",
+      "target": "4-120-3",
+      "value": "32次",
+      "lineStyle": {
+        "normal": {
+          "color": "black",
+          "width": 2
+        }
+      }
+    },
+
+    {
+      "source": "4-120-0",
+      "target": "4-120-4",
+      "value": "56次",
+      "lineStyle": {
+        "normal": {
+          "color": "red",
+          "width": 3
+        }
+      }
+
+    },
+
+    {
+      "source": "4-120-0",
+      "target": "4-120-5",
+      "value": "15次",
+      "lineStyle": {
+        "normal": {
+          "color": "black",
+          "width": 1
+        }
+      }
+    },
+
+    {
+      "source": "4-120-0",
+      "target": "4-120-6",
+      "value": "20次",
+      "lineStyle": {
+        "normal": {
+          "color": "black",
+          "width": 2
+        }
+      }
+    },
+
+    {
+      "source": "4-120-0",
+      "target": "4-120-7",
+      "value": "26次",
+      "lineStyle": {
+        "normal": {
+          "color": "black",
+          "width": 2
+        }
+      }
+    },
+
+    {
+      "source": "4-120-0",
+      "target": "4-120-8",
+      "value": "10次",
+      "lineStyle": {
+        "normal": {
+          "color": "black",
+          "width": 1
+        }
+      }
+    },
+
+    {
+      "source": "4-120-0",
+      "target": "4-120-9",
+      "value": "6次",
+      "lineStyle": {
+        "normal": {
+          "color": "black",
+          "type": "dotted"
+        }
+      }
+    },
+
+    {
+      "source": "4-120-0",
+      "target": "4-120-10",
+      "value": "7次",
+      "lineStyle": {
+        "normal": {
+          "color": "black",
+          "type": "dotted"
+        }
+      }
+    },
+
+    {
+      "source": "4-120-0",
+      "target": "4-120-11",
+      "value": "12次",
+      "lineStyle": {
+        "normal": {
+          "color": "black",
+          "width": 1
+        }
+      }
+    },
+
+    {
+      "source": "4-120-0",
+      "target": "4-120-12",
+      "value": "2次",
+      "lineStyle": {
+        "normal": {
+          "color": "black",
+          "type": "dotted"
+        }
+      }
+    },
+
+    {
+      "source": "4-120-0",
+      "target": "4-120-13",
+      "value": "5次",
+      "lineStyle": {
+        "normal": {
+          "color": "black",
+          "type": "dotted"
+        }
+      }
+    }
+
+  ]
+}

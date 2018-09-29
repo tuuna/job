@@ -1,0 +1,52 @@
+{
+  "innerPieData": [{
+      "value": 35,
+      "name": "出现"
+    },
+    {
+      "value": 45,
+      "name": "未出现"
+    }
+  ],
+  "circlePieData": [{
+      "value": 335,
+      "name": "短信"
+    },
+    {
+      "value": 335,
+      "name": "主机"
+    },
+    {
+      "value": 335,
+      "name": "换卡"
+    },
+    {
+      "value": 335,
+      "name": "主被叫"
+    },
+    {
+      "value": 335,
+      "name": "开关机"
+    },
+    {
+      "value": 335,
+      "name": "周期性位置更新"
+    },
+    {
+      "value": 335,
+      "name": "强制性位置更新"
+    },
+    {
+      "value": 335,
+      "name": "切换"
+    },
+    {
+      "value": 335,
+      "name": "换手机"
+    },
+    {
+      "value": 335,
+      "name": "其他"
+    }
+  ]
+}

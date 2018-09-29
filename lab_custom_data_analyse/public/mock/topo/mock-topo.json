@@ -1,0 +1,254 @@
+{
+  "data": [{
+      "name": "A",
+      "category": 0,
+      "symbol": "roundRect",
+      "symbolSize": [80, 30],
+      "draggable": true
+    },
+    {
+      "name": "B",
+      "category": 0,
+      "symbol": "roundRect",
+      "symbolSize": [80, 30],
+      "draggable": true
+    },
+    {
+      "name": "C",
+      "category": 0,
+      "symbol": "roundRect",
+      "symbolSize": [80, 30],
+      "draggable": true
+    },
+    {
+      "name": "D",
+      "category": 1,
+      "symbol": "roundRect",
+      "symbolSize": [80, 30],
+      "draggable": true
+
+    },
+
+    {
+      "name": "E",
+      "category": 0,
+      "symbol": "roundRect",
+      "symbolSize": [80, 30],
+      "draggable": true
+    },
+    {
+      "name": "F",
+      "category": 2,
+      "symbol": "roundRect",
+      "symbolSize": [80, 30],
+      "draggable": true
+    },
+    {
+      "name": "G",
+      "category": 1,
+      "symbol": "roundRect",
+      "symbolSize": [80, 30],
+      "draggable": true
+    },
+
+    {
+      "name": "H",
+      "category": 1,
+      "symbol": "roundRect",
+      "symbolSize": [80, 30],
+      "draggable": true
+    },
+    {
+      "name": "I",
+      "category": 2,
+      "symbol": "roundRect",
+      "symbolSize": [80, 30],
+      "draggable": true
+    },
+
+
+    {
+      "name": "J",
+      "category": 3,
+      "symbol": "roundRect",
+      "symbolSize": [80, 30],
+      "draggable": true
+    },
+    {
+      "name": "K",
+      "category": 3,
+      "symbol": "roundRect",
+      "symbolSize": [80, 30],
+      "draggable": true
+    },
+    {
+      "name": "L",
+      "category": 2,
+      "symbol": "roundRect",
+      "symbolSize": [80, 30],
+      "draggable": true
+    },
+    {
+      "name": "M",
+      "category": 3,
+      "symbol": "roundRect",
+      "symbolSize": [80, 30],
+      "draggable": true
+    },
+    {
+      "name": "N",
+      "category": 3,
+      "symbol": "roundRect",
+      "symbolSize": [80, 30],
+      "draggable": true
+    }
+  ],
+  "links": [{
+      "source": "A",
+      "target": "B",
+      "value": "56次",
+      "lineStyle": {
+        "normal": {
+          "color": "red",
+          "width": 3
+        }
+      }
+
+    },
+    {
+      "source": "A",
+      "target": "C",
+      "value": "58次",
+      "lineStyle": {
+        "normal": {
+          "color": "red",
+          "width": 3
+        }
+      }
+    },
+    {
+      "source": "A",
+      "target": "D",
+      "value": "30次",
+      "lineStyle": {
+        "normal": {
+          "color": "black",
+          "width": 2
+        }
+      }
+    },
+    {
+      "source": "A",
+      "target": "E",
+      "value": "56次",
+      "lineStyle": {
+        "normal": {
+          "color": "red",
+          "width": 3
+        }
+      }
+
+    },
+    {
+      "source": "A",
+      "target": "F",
+      "value": "15次",
+      "lineStyle": {
+        "normal": {
+          "color": "black",
+          "width": 1
+        }
+      }
+    },
+
+    {
+      "source": "A",
+      "target": "G",
+      "value": "20次",
+      "lineStyle": {
+        "normal": {
+          "color": "black",
+          "width": 2
+        }
+      }
+    },
+    {
+      "source": "A",
+      "target": "H",
+      "value": "26次",
+      "lineStyle": {
+        "normal": {
+          "color": "black",
+          "width": 2
+        }
+      }
+    },
+    {
+      "source": "A",
+      "target": "I",
+      "value": "10次",
+      "lineStyle": {
+        "normal": {
+          "color": "black",
+          "width": 1
+        }
+      }
+    },
+    {
+      "source": "A",
+      "target": "J",
+      "value": "6次",
+      "lineStyle": {
+        "normal": {
+          "color": "black",
+          "type": "dotted"
+        }
+      }
+    },
+    {
+      "source": "A",
+      "target": "K",
+      "value": "7次",
+      "lineStyle": {
+        "normal": {
+          "color": "black",
+          "type": "dotted"
+        }
+      }
+    },
+    {
+      "source": "A",
+      "target": "L",
+      "value": "12次",
+      "lineStyle": {
+        "normal": {
+          "color": "black",
+          "width": 1
+        }
+      }
+    },
+    {
+      "source": "A",
+      "target": "M",
+      "value": "2次",
+      "lineStyle": {
+        "normal": {
+          "color": "black",
+          "type": "dotted"
+        }
+      }
+    },
+    {
+      "source": "A",
+      "target": "N",
+      "value": "5次",
+      "lineStyle": {
+        "normal": {
+          "color": "black",
+          "type": "dotted"
+        }
+      }
+
+    }
+  ]
+}

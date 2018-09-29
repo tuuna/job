@@ -1,0 +1,13 @@
+{"interConnecterData":[
+        {"id":"1","phoneNum":"13129644121","locaton":"四川成都","frequency":"56","intmacyLevel":"1"},
+        {"id":"2","phoneNum":"13129644121","locaton":"四川成都","frequency":"23","intmacyLevel":"1"},
+        {"id":"3","phoneNum":"13129644121","locaton":"四川成都","frequency":"14","intmacyLevel":"1"},
+        {"id":"4","phoneNum":"13129644121","locaton":"四川成都","frequency":"14","intmacyLevel":"1"},
+        {"id":"5","phoneNum":"13129644121","locaton":"四川广汉","frequency":"13","intmacyLevel":"1"},
+        {"id":"6","phoneNum":"13129644121","locaton":"重庆","frequency":"12","intmacyLevel":"2"},
+        {"id":"7","phoneNum":"13129644121","locaton":"北京","frequency":"12","intmacyLevel":"2"},
+        {"id":"8","phoneNum":"13129644121","locaton":"重庆","frequency":"10","intmacyLevel":"3"},
+        {"id":"9","phoneNum":"13129644121","locaton":"上海","frequency":"5","intmacyLevel":"3"},
+        {"id":"10","phoneNum":"13129644121","locaton":"上海","frequency":"2","intmacyLevel":"3"}
+        ]
+    }

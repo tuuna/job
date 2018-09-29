@@ -1,0 +1,13 @@
+{"foreignConnecterData":[
+        {"id":"1","phoneNum":"001-12344552","locaton":"美国","frequency":"36","intmacyLevel":"1"},
+        {"id":"2","phoneNum":"001-44556667","locaton":"美国","frequency":"23","intmacyLevel":"1"},
+        {"id":"3","phoneNum":"001-45555665","locaton":"美国","frequency":"14","intmacyLevel":"1"},
+        {"id":"4","phoneNum":"081-29644121","locaton":"日本","frequency":"10","intmacyLevel":"1"},
+        {"id":"5","phoneNum":"081-29644121","locaton":"日本","frequency":"10","intmacyLevel":"1"},
+        {"id":"6","phoneNum":"081-29644121","locaton":"日本","frequency":"9","intmacyLevel":"2"},
+        {"id":"7","phoneNum":"091-29644121","locaton":"印度","frequency":"6","intmacyLevel":"2"},
+        {"id":"8","phoneNum":"091-29644121","locaton":"印度","frequency":"6","intmacyLevel":"3"},
+        {"id":"9","phoneNum":"001-29644121","locaton":"美国","frequency":"5","intmacyLevel":"3"},
+        {"id":"10","phoneNum":"001-12964411","locaton":"美国","frequency":"2","intmacyLevel":"3"}
+        ]
+    }

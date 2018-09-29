@@ -1,0 +1,42 @@
+{
+  "data": [
+    {
+      "SRC_BROAD_BAND": "0012.703Kbps",
+      "SRC_BROAD_RATIO": "0000.008%",
+      "TOTAL_BAND": 8983.11,
+      "DEST_BROAD_BAND": "0012.703Kbps",
+      "M_LINE_NUM2": -47796166,
+      "M_LINE_NUM1": 1678540900,
+      "M_LINE_NUM4": 0,
+      "DEST_BROAD_RATIO": "0000.008%",
+      "M_LINE_NUM3": -1796680695,
+      "DESTIPADDRESS": "221.200.165.0",
+      "ID": 794435060,
+      "HW_NODENO": "zd4",
+      "SRCIP": 0,
+      "SRCIPCOUNTRY": "中国四川成都联通ADSL",
+      "SRCIPADDRESS": "221.200.155.0",
+      "DESTIPCOUNTRY": "中国重庆联通ADSL",
+      "SPYTIME": "2018-09-25 21:47:59"
+    },
+    {
+      "SRC_BROAD_BAND": "0012.703Kbps",
+      "SRC_BROAD_RATIO": "0000.008%",
+      "TOTAL_BAND": 8983.11,
+      "DEST_BROAD_BAND": "0012.703Kbps",
+      "M_LINE_NUM2": -411532351,
+      "M_LINE_NUM1": 16785410,
+      "M_LINE_NUM4": 0,
+      "DEST_BROAD_RATIO": "0000.008%",
+      "M_LINE_NUM3": -627513066,
+      "DESTIPADDRESS": "221.200.167.0",
+      "ID": 508742295,
+      "HW_NODENO": "zd3",
+      "SRCIP": 0,
+      "SRCIPCOUNTRY": "中国四川成都电信ADSL",
+      "SRCIPADDRESS": "221.200.156.0",
+      "DESTIPCOUNTRY": "中国重庆移动ADSL",
+      "SPYTIME": "2018-09-25 21:47:59"
+    }
+  ]
+}

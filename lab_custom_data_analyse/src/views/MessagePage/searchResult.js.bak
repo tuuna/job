@@ -1,0 +1,450 @@
+import React, {Component} from 'react';
+import {
+    Checkbox,
+    Button,
+    Col,
+    Row,
+    Modal,
+    BackTop,
+    Collapse,
+    List
+} from 'antd';
+import moment from "moment";
+import './searchResult.css';
+
+const CheckboxGroup = Checkbox.Group;
+const Panel = Collapse.Panel;
+
+const mapping =
+    {address:"本机号码归属地",
+        number:"本机号码",
+        own_imsi:"本机IMSI",
+        op_imsi:"对端IMSI",
+        from:"发送方号",
+        to:"接收方号",
+        op_address:"对端号码归属地",
+        op_number:"对端号码",
+        startTime:"发送时间",
+        endTime:"接收时间",
+        content:"短信内容",
+        keyword:"关键字",
+        m_s:"主从模式",
+        message_type:"短信语种",
+        message_length:"短信长度",
+        base_lon:"基站经度",
+        base_lat:"基站纬度",
+        phone_type:"手机型号",
+        g_number:"4G基站号",
+        user_ip:"用户ip地址",
+        g_3g_4g_base:"2/3/4G基站号",
+        up_apn_ambr:"上行APN AMBR",
+        down_apn_ambr:"下行APN AMBR",
+        mme_channel:"MME控制隧道号",
+        temp_recog:"临时客户识别码",
+        route_sig:"2/3G路由区标识",
+        term_sig:"3G终端服务区标识",
+        sgw_sgsn_channel:"SGW/SGSN控制隧道号",
+        pgw_ggsn_channel:"PGW/GGSN控制隧道号",
+        temp_sgsn:"临时移动用户识别-SGSN"}
+
+
+
+
+export default class searchResult extends Component {
+
+    constructor(props) {
+        super(props);
+        this.state = {
+            simple: true,
+            detailed: false,
+            loading: false,
+            visible: false,
+            customState: false,
+            sortState: false,
+            length: 0,
+            custom: [],
+            immediate_custom: [],
+            immediate_ad_custom: [],
+            descData:[],
+            ascData:[],
+            Detailed_data: [],
+            sortList:[],
+            desc:true,
+            isClickSimple:true,
+            isClickDetail:false,
+            isClickSort:false,
+            isClickCustom:false
+        }
+    }
+
+
+    showDefault() {
+        if (this.state.detailed || this.state.customState) {
+            this.setState({
+                simple: true,
+                detailed: false,
+                customState: false,
+                isClickSimple: true,
+                isClickDetail: false,
+                isClickSort: false,
+                isClickCustom: false
+            });
+        }
+    }
+
+    showDetailed() {
+        if (this.state.simple || this.state.customState) {
+
+            this.setState({
+                simple: false,
+                detailed: true,
+                isClickSimple: false,
+                isClickDetail: true,
+                isClickSort: false,
+                isClickCustom: false
+            });
+        }
+    }
+
+
+    handleChange(value) {
+        console.log(`selected ${value}`);
+        let str = value.toString().split(',')
+        this.setState({
+            immediate_custom: str,
+        });
+    }
+
+    handleAdChange(value) {
+        console.log(`selected ${value}`);
+        let str = value.toString().split(',')
+        this.setState({
+            immediate_ad_custom: str,
+        });
+    }
+
+    showModal = () => {
+        this.setState({
+            visible: true,
+            isClickSimple: false,
+            isClickDetail: true,
+            isClickSort: false,
+            isClickCustom: false
+        });
+    }
+    handleOk = () => {
+        let common = this.state.immediate_custom
+        let advance = this.state.immediate_ad_custom
+        let custom = common.concat(advance)
+        console.log(custom)
+        this.setState(
+            {
+                loading: true,
+                detailed: true,
+                simple: false,
+                customState: true,
+            }
+        );
+        setTimeout(() => {
+            this.setState({loading: false, visible: false, detailed: false, simple: false, customState: true,custom:custom});
+        }, 1000);
+    }
+    handleCancel = () => {
+        this.setState({visible: false});
+    }
+
+
+    sortData() {
+        if(this.state.desc) {
+            this.setState({
+                desc:false,
+                isClickSimple: false,
+                isClickDetail: false,
+                isClickSort: true,
+                isClickCustom: false
+            })
+        } else {
+            this.setState({
+                desc:true,
+                isClickSimple: false,
+                isClickDetail: false,
+                isClickSort: true,
+                isClickCustom: false
+            })
+        }
+    }
+
+
+    render() {
+
+        const { total, descData,ascData,loading} = this.props;
+        const {custom, ad_custom, desc, isClickSimple, isClickDetail, isClickSort, isClickCustom} = this.state;
+        if(descData && typeof(descData)!=="undefined" && descData!==0 && descData !== [] ) {
+            for (let i = 0; i < descData.length; i++) {
+                if(descData[i].startTime === 0){
+                    descData[i].startTime = descData[i].endTime
+                }
+                if(ascData[i].startTime === 0){
+                    ascData[i].startTime = ascData[i].endTime
+                }
+            }
+        }
+
+        return (
+            <div>
+                <div style={{padding:"8px"}}>
+
+                    <div  style={{background: '#073262',
+                        padding: '10px',
+                        borderStyle:"solid",
+                        borderColor:"#5bbeff",
+                        borderWidth:"1px"}} >
+
+                        <div style={{float: 'left'}} align="left">
+                            <Button style={{borderColor:"#5bbeff",background: '#08244A', color: isClickSimple ? "#0091A4" : "#fff"}} onClick={this.showDefault.bind(this)}>概要模式</Button>
+                            &nbsp;&nbsp;
+                            <Button style={{borderColor:"#5bbeff",background: '#08244A', color: isClickDetail ? "#0091A4" : "#fff"}} onClick={this.showDetailed.bind(this)}>详细模式</Button>
+                            &nbsp;&nbsp;
+                            <Button style={{borderColor:"#5bbeff",background: '#08244A', color: isClickSort ? "#0091A4" : "#fff"}} onClick={this.sortData.bind(this)}>排序</Button>
+                            &nbsp;&nbsp;
+                            <Button style={{borderColor:"#5bbeff",background: '#08244A', color: isClickCustom ? "#0091A4" : "#fff"}} onClick={this.showModal.bind(this)}>配置项</Button>
+                            <Modal
+                                visible={this.state.visible}
+                                title="选择您想查看的内容"
+                                onOk={this.handleOk}
+                                onCancel={this.handleCancel}
+                                footer={[
+                                    <Button key="back" onClick={this.handleCancel}>返回</Button>,
+                                    <Button key="submit" type="primary" loading={this.state.loading}
+                                            onClick={this.handleOk}>
+                                        提交
+                                    </Button>,
+                                ]}
+                                className="modal_item"
+                            >
+                                <div>
+                                    <CheckboxGroup  onChange={this.handleChange.bind(this)} className="common_check">
+                                        <Row  className="check_row">
+                                            <Col span={8} className="check_span">
+
+
+                                                <Checkbox value="number">本机号码</Checkbox>
+
+                                                <Checkbox value="own_imsi">本机IMSI</Checkbox>
+                                                <Checkbox value="from">发送方号</Checkbox>
+                                                <Checkbox value="address">本机号码归属地</Checkbox>
+                                            </Col>
+                                            <Col span={8} className="check_span">
+
+                                                <Checkbox value="op_number">对端号码</Checkbox>
+                                                <Checkbox value="op_imsi">对端IMSI</Checkbox>
+                                                <Checkbox value="to">接收方号</Checkbox>
+                                                <Checkbox value="op_address">对端号码归属地</Checkbox>
+                                            </Col>
+                                            <Col span={8} className="check_span">
+
+
+                                                <Checkbox value="startTime">短信时间</Checkbox>
+                                                {/*<Checkbox value="endTime">接收时间</Checkbox>*/}
+                                                <Checkbox value="content">短信内容</Checkbox>
+                                            </Col>
+                                        </Row>
+                                    </CheckboxGroup>
+
+                                    <Collapse accordion size="small" style={{marginTop:"-7px"}}>
+                                        <Panel header={'高级配置'} key="1" className="custom_item_panel">
+                                            <CheckboxGroup  onChange={this.handleAdChange.bind(this)}>
+                                                <Row  className="check_row">
+                                                    <Col span={8} className="check_span">
+
+                                                        <Checkbox value="m_s">主从模式</Checkbox>
+                                                        <Checkbox value="message_type">短信语种</Checkbox>
+                                                        <Checkbox value="message_length">短信长度</Checkbox>
+                                                        <Checkbox value="base_lon">基站经度</Checkbox>
+                                                        <Checkbox value="up_apn_ambr">上行APN AMBR</Checkbox>
+                                                        <Checkbox value="down_apn_ambr">下行APN AMBR</Checkbox>
+                                                        <Checkbox value="sgw_sgsn_channel">SGW/SGSN控制隧道号</Checkbox>
+
+                                                    </Col>
+                                                    <Col span={8} className="check_span">
+                                                        <Checkbox value="base_lat">基站纬度</Checkbox>
+                                                        <Checkbox value="phone_type">手机型号</Checkbox>
+                                                        <Checkbox value="g_number">4G基站号</Checkbox>
+                                                        <Checkbox value="user_ip">用户ip地址</Checkbox>
+                                                        <Checkbox value="route_sig">2/3G路由区标识</Checkbox>
+                                                        <Checkbox value="tem_sig">3G终端服务区标识</Checkbox>
+                                                        <Checkbox value="pgw_ggsn_channel">PGW/GGSN控制隧道号</Checkbox>
+
+
+                                                    </Col>
+                                                    <Col span={8} className="check_span">
+                                                        <Checkbox value="keyword">关键字</Checkbox>
+                                                        <Checkbox value="g_3g_4g_base">2/3/4G基站号</Checkbox>
+                                                        <Checkbox value="mme_channel">MME控制隧道号</Checkbox>
+
+                                                        <Checkbox value="temp_recog">临时客户识别码</Checkbox>
+                                                        <Checkbox value="temp_sgsn">临时移动用户识别-SGSN</Checkbox>
+
+
+                                                    </Col>
+                                                </Row>
+                                            </CheckboxGroup>
+                                        </Panel>
+                                    </Collapse>
+                                </div>
+                            </Modal>
+                        </div>
+                        <br/>
+                        <div  className="queryFrame" >
+                            {
+                                this.state.simple && !this.state.customState ?
+                                    (
+                                        <List
+                                            split={false}
+                                            pagination={{
+                                                className:"paginate_item",
+                                                pageSize: 4,
+                                                defaultCurrent: 1,
+                                                total: total,
+                                                onChange: (page) => {
+                                                    this.props.onChange(page)
+                                                },
+                                                itemRender: (current, type, originalElement) => {
+                                                    if (type === "prev") {
+                                                        return <a style={{color:"#FFFFFF"}}>上一页</a>;
+                                                    } else if (type === "next") {
+                                                        return <a style={{color:"#FFFFFF"}}>下一页</a>;
+                                                    }
+                                                    return originalElement;
+                                                }
+                                            }}
+                                            loading={loading}
+                                            dataSource={desc ? descData : ascData}
+                                            renderItem={item => (
+                                                <List.Item>
+                                                    <Row className="rowStyle">
+                                                        <Col span={5} className="col_margin">
+                                                            <br/>
+                                                            <pre>本机号码：{item.number}</pre>
+                                                            <pre>本机号码归属地：{item.address}</pre>
+                                                            <pre>本机IMSI: {item.own_imsi}</pre>
+                                                        </Col>
+                                                        <Col span={5} className="col_margin">
+                                                            <br/>
+                                                            <pre>对端号码: {item.op_number}</pre>
+                                                            <pre>对端号码归属地: {item.op_address}</pre>
+                                                            <pre>对端IMSI: {item.op_imsi}</pre>
+                                                        </Col>
+                                                        <Col span={5} className="col_margin">
+                                                            <br/>
+                                                            <pre>类型: {item.type}</pre>
+                                                            <pre>发送方: {item.from}</pre>
+
+                                                            <pre>短信时间: {moment(item.startTime * 1000).format("YYYY-MM-DD HH:mm:ss")}</pre>
+                                                        </Col>
+                                                        <Col span={5} className="col_margin">
+                                                            <br/>
+                                                            <pre>短信内容: {item.content}</pre>
+                                                        </Col>
+                                                    </Row>
+                                                </List.Item>
+                                            )}
+                                        />
+                                    )
+                                    : (
+                                        <List
+                                            split={false}
+                                            pagination={{
+
+                                                className:"paginate_item",
+                                                pageSize: 4,
+                                                defaultCurrent: 1,
+                                                total: total,
+                                                onChange: (page) => {
+                                                    this.props.onChange(page)
+                                                },
+                                                itemRender: (current, type, originalElement) => {
+                                                    if (type === "prev") {
+                                                        return <a style={{color:"#FFFFFF"}}>上一页</a>;
+                                                    } else if (type === "next") {
+                                                        return <a style={{color:"#FFFFFF"}}>下一页</a>;
+                                                    }
+                                                    return originalElement;
+                                                }
+                                            }}
+                                            loading={loading}
+                                            dataSource={desc ? descData : ascData}
+                                            renderItem={item => this.state.customState ? (
+                                                <List.Item>
+
+                                                    <Row  className="rowStyle">
+                                                        {
+                                                            custom.map((value,index) => {
+
+                                                                return (
+
+                                                                    <Col span={5} className="col_margin" key={index}>
+                                                                        <br/>
+                                                                        value == "startTime" ?
+                                                                        <pre>{moment(item[value] * 1000).format("YYYY-MM-DD HH:mm:ss")}</pre>
+                                                                        :
+                                                                        <pre>{mapping[value]}：{item[value]}</pre>
+                                                                    </Col>
+
+                                                                )
+
+                                                            })
+                                                        }
+                                                    </Row>
+
+                                                </List.Item>
+                                            ) : (
+                                                <List.Item>
+
+                                                    <Row  className="rowStyle">
+                                                        <Col span={5} className="col_margin">
+                                                            <br/>
+                                                            <pre>本机号码：{item.number}</pre>
+                                                            <pre>本机号码归属地：{item.address}</pre>
+                                                            <pre>本机IMSI: {item.own_imsi}</pre>
+                                                            <pre>接收方：{item.to}</pre>
+
+                                                        </Col>
+                                                        <Col span={5} className="col_margin">
+                                                            <br/>
+                                                            <pre>对端号码: {item.op_number}</pre>
+                                                            <pre>对端号码归属地: {item.op_address}</pre>
+                                                            <pre>对端IMSI: {item.op_imsi}</pre>
+
+                                                        </Col>
+                                                        <Col span={5} className="col_margin">
+                                                            <br/>
+                                                            <pre>类型: {item.type}</pre>
+                                                            <pre>短信时间: {moment(item.startTime * 1000).format("YYYY-MM-DD HH:mm:ss")}</pre>
+                                                            {/*<pre>短信接收时间: {item.endTime}</pre>*/}
+                                                            <pre>发送方：{item.from}</pre>
+                                                        </Col>
+                                                        <Col span={5} className="col_margin">
+                                                            <br/>
+                                                            <pre>短信内容: {item.content}</pre>
+                                                        </Col>
+                                                    </Row>
+
+                                                </List.Item>
+                                            )}
+                                        />
+                                    )
+                            }
+
+                        </div>
+
+                        <div>
+                            <BackTop/>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        );
+    }
+}

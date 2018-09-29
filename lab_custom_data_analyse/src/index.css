@@ -1,0 +1,11 @@
+@import '~antd/dist/antd.css';
+@import '~rsuite/dist/styles/rsuite.css';
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  font-family: sans-serif;
+  background-color: #08244A;
+  font-size: 12px;
+}

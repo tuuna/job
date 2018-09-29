@@ -1,0 +1,11 @@
+{"phoneData":{
+	"data":[
+        {"id":"1","phoneNum":"13129644121","imsi":"40011418603087","status":"激活","phoneType":"iphoneX"},
+        {"id":"2","phoneNum":"13129644122","imsi":"40011418603087","status":"激活","phoneType":"HUAWEI P20"},
+        {"id":"3","phoneNum":"13129644121","imsi":"40011418603087","status":"停机","phoneType":"iphone7"},
+        {"id":"4","phoneNum":"13129644121","imsi":"40011418603087","status":"注销","phoneType":"iphone6"},
+        {"id":"5","phoneNum":"13129644121","imsi":"40011418603087","status":"停机","phoneType":"HUAWEI MATE9"}
+        ],
+   "total":8
+    }
+    }

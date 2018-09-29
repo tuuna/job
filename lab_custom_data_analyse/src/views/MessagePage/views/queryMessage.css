@@ -1,0 +1,80 @@
+
+.main_layout .form_layout .over_label label{
+    background-color: #073262;
+    color: #FFFFFF;
+}
+
+.form_layout .over_label label{
+    background-color: #073262;
+    color: #FFFFFF;
+}
+
+.form_layout_ad .over_label label{
+    color: #FFFFFF;
+}
+
+.form_layout .over_label .ant-form-item-label {
+    background-color: #073262;
+}
+
+.form_layout .select_form .ant-select-selection--single {
+    background-color: #072C59;
+    border-color: #5bbeff;
+    color: #FFFFFF;
+}
+
+.main_layout .form_layout .select_form .ant-select-selection--single {
+    background-color: #072C59;
+    border-color: #5bbeff;
+    color: #FFFFFF;
+}
+
+.main_layout .form_layout .time_picker .ant-calendar-picker-input {
+    background-color: #072C59;
+    border-color: #5bbeff;
+    color: #FFFFFF;
+}
+
+.form_layout .time_picker .ant-calendar-picker-input {
+    background-color: #072C59;
+    border-color: #5bbeff;
+    color: #FFFFFF;
+}
+
+.form_layout_ad .time_picker .ant-calendar-picker-input {
+    background-color: #072C59;
+    border-color: #5bbeff;
+    color: #FFFFFF;
+}
+
+.form_layout .ant-form-item .ant-form-item-control-wrapper .ant-form-item-control{
+    background-color: #073262;
+}
+
+.form_layout_ad .row2 .col_margin {
+    padding-left: 10px;
+}
+
+.form_layout .col_margin  .input_all {
+    background-color:#072C59;
+    border-color: #5bbeff;
+    color: #FFFFFF;
+}
+
+.form_layout_ad .row2 .col_margin  .input_all {
+    background-color:#072C59;
+    border-color: #5bbeff;
+    color: #FFFFFF;
+}
+
+.form_layout .button_all {
+    background:#2982C0;
+    color: #fff;
+    border-color:#5bbeff;
+}
+
+.form_layout_ad .button_all {
+    background:#2982C0;
+    color: #fff;
+    border-color:#5bbeff;
+}

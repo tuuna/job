@@ -1,0 +1,55 @@
+.allHeader {
+    background: #073262;
+    display: block;
+    color: #FFFFFF;
+    height: 50px;
+    width: 100%;
+}
+/*更改ant-row高度*/
+.header-css .ant-row {
+    height: 50px ;
+}
+.header-css .ant-row .ant-col-23{
+    height: 50px;
+}
+
+.nav-top{
+    font-size: 14px;
+    overflow: auto;
+    line-height: 50px;
+    width: 100%;
+    padding-left: 0px;
+    margin: 0 !important;
+}
+.nav-top a:link{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+.nav-top a:active{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+.nav-top a:visited{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+.nav-top a:hover{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.nav-top li {
+    float: left;
+    width: 130px;
+    text-align:center;
+    list-style-type:none;
+}
+
+.nav-top a {
+    color:#FFFFFF;
+}
+/*header选中后的样式*/
+.select{
+    background-color: #062C57;
+    color: #5BBDFE;
+}

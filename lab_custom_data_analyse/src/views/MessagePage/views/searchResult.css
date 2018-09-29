@@ -1,0 +1,265 @@
+.main_layout {
+	background: #073262;
+	padding: 10px;
+	border-style: solid;
+	border-color: #5bbeff;
+	border-width: 1px;
+}
+
+/*.ant-list-split .ant-list-item {
+
+	background-color: #073262;
+}*/
+
+.modal_item .ant-modal-content .ant-modal-body {
+	padding: 0;
+	color: #FFFFFF;
+	font-size: 14px;
+	line-height: 1.5;
+	word-wrap: break-word;
+	/*background-color: #5bbeff;*/
+}
+
+.modal_item .ant-modal-content .ant-modal-header {
+	background: #073262;
+	color: #FFFFFF;
+	padding-left: 13px;
+	border-top:solid 1px  #e7f3ff;
+	border-left:solid 1px  #e7f3ff;
+	border-right:solid 1px  #e7f3ff;
+}
+
+.modal_item .ant-modal-content .ant-modal-footer {
+	background: #073262;
+	padding: 10px 16px;
+	text-align: right;
+	border-bottom:solid 1px  #e7f3ff;
+	border-left:solid 1px  #e7f3ff;
+	border-right:solid 1px  #e7f3ff;
+}
+
+.modal_item .ant-modal-close-x:before{
+	color:#FFFFFF;
+}
+
+.modal_item .ant-modal-content .ant-modal-header .ant-modal-title{
+	color: #FFFFFF;
+}
+
+.modal_item .ant-modal-content .ant-modal-body .ant-checkbox-group .check_row .check_span .ant-checkbox-wrapper{
+	color: #FFFFFF;
+}
+
+.col_margin{
+	color:#fff;
+}
+
+.modal_item .ant-modal-content .ant-modal-body .common_check {
+	padding: 16px;
+	background-color: #072C59;
+	border: 1px solid #e7f3ff;
+}
+
+.modal_item .ant-collapse > .ant-collapse-item:last-child, .ant-collapse > .ant-collapse-item:last-child > .ant-collapse-content{
+	background-color: #072C59;
+	border-radius: 0 1px;
+	border-color:  #e7f3ff;
+}
+
+.modal_item .ant-collapse > .ant-collapse-item > .ant-collapse-header{
+	background-color: #073262;
+	color:#FFFFFF;
+	border-radius: 0 1px;
+}
+.queryFrame {
+	border-radius: 25px;
+	color: #fff;
+	margin-top: 20px;
+}
+
+.rowStyle{
+	background-color: #072C59;
+	width: 100%;
+}
+
+
+.paginate .paginate-item{
+	text-align: center;
+}
+
+.ant-list-pagination  .paginate_item {
+	text-align: center;
+}
+
+.ant-list-pagination  .paginate_item .ant-pagination-item{
+	background-color: #08244A;
+}
+
+.ant-list-pagination  .paginate_item .ant-pagination-item-active{
+	background-color: #2F95DC;
+}
+
+.ant-list-pagination  .paginate_item .ant-pagination-item a {
+	color: #FFFFFF;
+}
+
+.ant-list-pagination  .paginate_item .ant-pagination-jump-prev .ant-pagination-item-link :before{
+
+	color:#FFFFFF;
+}
+
+.ant-list-pagination  .paginate_item .ant-pagination-jump-next .ant-pagination-item-link :before{
+
+	color:#FFFFFF;
+}
+
+.queryFrame .ant-list-something-after-last-item .ant-spin-container > .ant-list-item:last-child {
+	border-bottom: 1px solid #5bbeff;
+}
+
+.paginate-item .ant-list-pagination .ant-pagination-jump-prev::after {
+	color:#FFFFFF;
+}
+
+
+.paginate-item .ant-list-pagination .ant-pagination-jump-next::after {
+	color: #FFFFFF;
+}
+
+.queryFrame .ant-table-wrapper .ant-spin-nested-loading .ant-spin-container .paginate_item{
+	text-align: center;
+	float: none;
+}
+
+.queryFrame .ant-table-wrapper .ant-spin-nested-loading .ant-spin-container .paginate_item .ant-pagination-item{
+	background-color: #08244A;
+}
+.queryFrame .ant-table-wrapper .ant-spin-nested-loading .ant-spin-container .paginate_item .ant-pagination-item-active {
+	background-color: #2F95DC;
+}
+
+.queryFrame .ant-table-wrapper .ant-spin-nested-loading .ant-spin-container .paginate_item .ant-pagination-item a {
+	color: #FFFFFF;
+}
+
+.queryFrame .ant-table-wrapper .ant-spin-nested-loading .ant-spin-container .paginate_item .ant-pagination-jump-prev .ant-pagination-item-link :before{
+
+	color:#FFFFFF;
+}
+
+.queryFrame .ant-table-wrapper .ant-spin-nested-loading .ant-spin-container .paginate_item .ant-pagination-jump-next .ant-pagination-item-link :before{
+
+	color:#FFFFFF;
+}
+
+
+.queryFrame .ant-table-wrapper .ant-spin-nested-loading .ant-spin-container .paginate_item .ant-list-pagination .ant-pagination-jump-prev::after {
+	color:#FFFFFF;
+}
+
+.queryFrame .ant-table-wrapper .ant-spin-nested-loading .ant-spin-container .paginate_item .ant-list-pagination .ant-pagination-jump-next::after {
+	color: #FFFFFF;
+}
+
+
+.rowStyle .col_margin {
+	margin-left: 10px;
+}
+
+
+.rowStyle .col_margin pre {
+	white-space: pre-wrap;
+	word-wrap: break-word;
+	tab-size: 4;
+}
+
+.display_pre {
+	display: block;
+}
+
+.none_pre {
+	display: none;
+}
+
+.ant-modal-body .ant-checkbox-group .check_row .check_span .ant-checkbox-wrapper + .ant-checkbox-wrapper  {
+	margin-left: 0;
+}
+
+.custom_item_panel {
+	background-color: #5BBEFF;
+}
+
+.queryFrame .detail_table .ant-spin-nested-loading .ant-spin-container .ant-table table .ant-table-thead th{
+	background-color: #08244A;
+}
+
+.queryFrame .detail_table .ant-spin-nested-loading .ant-spin-container .ant-table table .ant-table-thead th span{
+	color: #fff;
+}
+
+.queryFrame .detail_table .ant-spin-nested-loading .ant-spin-container .ant-table table .ant-table-tbody .ant-table-row td {
+	color: #fff;
+}
+
+.queryFrame .detail_table .ant-spin-nested-loading .ant-spin-container .ant-table table .ant-table-thead > tr > th {
+	word-break: keep-all;
+	padding: 16px 16px;
+}
+
+.queryFrame .detail_table .ant-spin-nested-loading .ant-spin-container .ant-table table .ant-table-tbody > tr > td {
+	word-break: keep-all;
+	padding: 16px 16px;
+}
+
+.queryFrame .detail_table .ant-spin-nested-loading .ant-spin-container .ant-table table .ant-table-tbody > tr:hover > td {
+	background-color: #2f95dc;
+}
+
+.page-container:after {
+	content: '.';
+	display: block;
+	height: 0;
+	overflow: hidden;
+	clear: both;
+}
+.page-container{
+	overflow: hidden;
+	display: flex;
+	text-align: center;
+	justify-content: center;
+	margin-top: 5px;
+}
+
+.page-container li {
+	width: 34px;
+	height: 34px;
+	border: 1px solid #5bbeff;
+	cursor: pointer;
+	display: block;
+	line-height: 34px;
+	color: white;
+	margin-right: 9px;
+}
+
+.page-container li:last-child {
+	margin-right: 0px;
+}
+
+/*当前页样式*/
+.activePage {
+	width: 34px;
+	height: 34px;
+	cursor: pointer;
+	display: block;
+	line-height: 34px;
+	color: white;
+	border: 1px solid #5bbeff;
+	background-color: #2F95DC;
+}
+
+/*没有上一页和下一页时样式*/
+.nomore {
+	color: #b5b5b5 !important;
+	cursor: not-allowed !important;
+}
+

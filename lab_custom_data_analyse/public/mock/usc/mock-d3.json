@@ -1,0 +1,249 @@
+{
+  "nodes": [{
+      "group": 1,
+      "id": "hxp", "img": "cat_2.png"
+    },
+    {"group": 2,
+      "id": "Bear", "img": "cat_3.png"
+    },
+    {"group": 3,
+      "id": "Cherry", "img": "cat_3.png"
+    },
+    {"group": 4,
+      "id": "Debbie", "img": "cat_2.png"
+    },
+    {"group": 5,
+      "id": "Judge", "img": "cat_2.png"
+    },
+    {"group": 6,
+      "id": "Frederic", "img": "cat_1.png"
+    },
+    {"group": 1,
+      "id": "Gillenormand", "img": "cat_1.png"
+    },
+    {"group": 1,
+      "id": "Montparnasse", "img": "cat_2.png"
+    },
+    {"group": 2,
+      "id": "Women", "img": "cat_1.png"
+    },
+    {"group": 3,
+      "id": "Judd", "img": "cat_2.png"
+    },
+    {"group": 5,
+      "id": "Men", "img": "cat_3.png"
+    },
+    {"group": 3,
+      "id": "Men-a", "img": "cat_3.png"
+    },
+    {"group": 7,
+      "id": "Men-b", "img": "cat_2.png"
+    },
+    {"group": 4,
+      "id": "Men-c", "img": "cat_1.png"
+    },
+    {"group": 5,
+      "id": "Men-d", "img": "cat_2.png"
+    },
+    {"group": 6,
+      "id": "Men-e", "img": "cat_2.png"
+    },
+    {"group": 7,
+      "id": "Women-a", "img": "cat_1.png"
+    },
+    {"group": 1,
+      "id": "Women-b", "img": "cat_1.png"
+    },
+    {"group": 1,
+      "id": "Women-c", "img": "cat_2.png"
+    },
+    {"group": 2,
+      "id": "Women-d", "img": "cat_2.png"
+    },
+    {"group": 2,
+      "id": "Women-e", "img": "cat_3.png"
+    },
+    {"group": 2,
+      "id": "Debbie-a", "img": "cat_2.png"
+    },
+    {"group": 2,
+      "id": "Debbie-b", "img": "cat_2.png"
+    },
+    {"group": 4,
+      "id": "Debbie-c", "img": "cat_2.png"
+    },
+    {"group": 5,
+      "id": "Debbie-d", "img": "cat_2.png"
+    },
+    {"group": 6,
+      "id": "Debbie-e", "img": "cat_1.png"
+    },
+    {"group": 7,
+      "id": "Frederic-a", "img": "cat_2.png"
+    },
+    {"group": 8,
+      "id": "Frederic-b", "img": "cat_3.png"
+    },
+    {"group": 9,
+      "id": "Frederic-c", "img": "cat_2.png"
+    },
+    {"group": 3,
+      "id": "Frederic-d", "img": "cat_3.png"
+    },
+    {"group": 3,
+      "id": "Frederic-e", "img": "cat_1.png"
+    }
+  ],
+  "links": [{
+     "group": 1,
+      "source": "hxp",
+      "target": "Bear",
+      "value": "hxp朋友1"
+    },
+    {"group": 2,
+      "source": "hxp",
+      "target": "Cherry",
+      "value": "hxp朋友2"
+    },
+    {"group": 3,
+      "source": "hxp",
+      "target": "Debbie",
+      "value": "hxp朋友3"
+    },
+    {"group": 4,
+      "source": "hxp",
+      "target": "Judge",
+      "value": "hxp朋友4"
+    },
+    {"group": 5,
+      "source": "hxp",
+      "target": "Frederic",
+      "value": "hxp朋友5"
+    },
+    {"group": 6,
+      "source": "hxp",
+      "target": "Gillenormand",
+      "value": "hxp朋友6"
+    },
+    {"group": 7,
+      "source": "hxp",
+      "target": "Montparnasse",
+      "value": "hxp朋友7"
+    },
+    {"group": 8,
+      "source": "hxp",
+      "target": "Women",
+      "value": "hxp朋友8"
+    },
+    {"group": 9,
+      "source": "hxp",
+      "target": "Judd",
+      "value": "hxp朋友9"
+    },
+    {"group": 10,
+      "source": "hxp",
+      "target": "Men",
+      "value": "hxp朋友10"
+    },
+    {"group": 11,
+      "source": "Men",
+      "target": "Men-a",
+      "value": "Men朋友0"
+    },
+    {"group": 12,
+      "source": "Men",
+      "target": "Men-b",
+      "value": "Men朋友1"
+    },
+    {"group": 13,
+      "source": "Men",
+      "target": "Men-c",
+      "value": "Men朋友2"
+    },
+    {"group": 14,
+      "source": "Men",
+      "target": "Men-d",
+      "value": "Men朋友3"
+    },
+    {"group": 15,
+      "source": "Men",
+      "target": "Men-e",
+      "value": "Men朋友4"
+    },
+    {"group": 16,
+      "source": "Women",
+      "target": "Women-a",
+      "value": "Women朋友0"
+    },
+    {"group": 17,
+      "source": "Women",
+      "target": "Women-b",
+      "value": "Women朋友1"
+    },
+    {"group": 18,
+      "source": "Women",
+      "target": "Women-c",
+      "value": "Women朋友2"
+    },
+    {"group": 19,
+      "source": "Women",
+      "target": "Women-d",
+      "value": "Women朋友3"
+    },
+    {"group": 20,
+      "source": "Women",
+      "target": "Women-e",
+      "value": "Women朋友4"
+    },
+    {"group": 21,
+      "source": "Debbie",
+      "target": "Debbie-a",
+      "value": "Debbie朋友0"
+    },
+    {"group": 22,
+      "source": "Debbie",
+      "target": "Debbie-b",
+      "value": "Debbie朋友1"
+    },
+    {"group": 23,
+      "source": "Debbie",
+      "target": "Debbie-c",
+      "value": "Debbie朋友2"
+    },
+    {"group": 24,
+      "source": "Debbie",
+      "target": "Debbie-d",
+      "value": "Debbie朋友3"
+    },
+    {"group": 25,
+      "source": "Debbie",
+      "target": "Debbie-e",
+      "value": "Debbie朋友4"
+    },
+    {"group": 26,
+      "source": "Frederic",
+      "target": "Frederic-a",
+      "value": "Frederic朋友0"
+    },
+    {"group": 27,
+      "source": "Frederic",
+      "target": "Frederic-b",
+      "value": "Frederic朋友1"
+    },
+    {"group": 28,
+      "source": "Frederic",
+      "target": "Frederic-c",
+      "value": "Frederic朋友2"
+    },
+    {"group": 29,
+      "source": "Frederic",
+      "target": "Frederic-d",
+      "value": "Frederic朋友3"
+    },
+    {"group": 30,
+      "source": "Frederic",
+      "target": "Frederic-e",
+      "value": "Frederic朋友4"
+    }
+  ]
+}

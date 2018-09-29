@@ -1,0 +1,48 @@
+/*二级导航加正文的clear-fix*/
+.clearFix{
+  background-color: #08244a;
+}
+/* 二级导航样式 */
+.navSecond{
+    background-color: #062C57;
+    display: block;
+    width: 100%;
+    height: 45px;
+    margin: 0px;
+    font-size: 14px;
+    padding: 0px !important;
+}
+.navSecond a {
+    color: #ffffff;
+    text-decoration: none;
+    line-height: 45px;
+}
+.navSecond a:hover{
+    color: #ffffff;
+}
+.navSecond a:active{
+    text-decoration: none;
+}
+.navSecond a:visited{
+    text-decoration: none;
+}
+.navSecond a:link{
+    text-decoration: none;
+}
+.navSecond li {
+    float: left;
+    width: 120px;
+    text-align:center;
+    list-style-type:none;
+    color: #ffffff;
+    line-height: 45px;
+}
+.navSecond li:first-child{
+  margin-left: 80px;
+}
+.selected{
+    height: 45px;
+    width: 120px;
+    display: inline-block;
+    background-color: #28669a;
+}

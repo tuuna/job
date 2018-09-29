@@ -1,0 +1,18 @@
+{
+  "data": [
+    {
+      "name": "目标消失",
+      "value": 14407
+    },
+    {
+      "name": "正在通联",
+      "value": 14528
+    },
+    {
+      "name": "位置更新",
+      "value": 14565
+    }
+  ],
+  "errMsg": "success",
+  "retCode": 0
+}

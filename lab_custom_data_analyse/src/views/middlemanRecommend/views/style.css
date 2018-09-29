@@ -1,0 +1,100 @@
+/* 搜索方式行 */
+.content .searchWay{
+  margin: 8px;
+  border: solid 1px #5BBDFE;
+  height: 40px;
+  line-height: 40px;
+  color: #fff;
+}
+.content .searchWay .ant-col-12 .ant-radio-button-wrapper{
+  background-color: transparent;
+  color:#fff;
+  border: solid 1px #5BBDFE;
+}
+.content .searchWay .ant-col-12 .ant-radio-button-wrapper-checked{
+  background-color: #1890ff;
+  color: #fff;
+}
+.content .middleRecommend .handleSearch{
+  border: solid 1px #5BBDFE;
+  margin: 0px 8px;
+  height: 40px;
+  line-height: 40px;
+}
+.content .middleRecommend .handleSearch .checkWay{
+  display: inline-block;
+}
+.content .middleRecommend .handleSearch .checkWay .ant-form-item{
+  margin-right: 1px;
+}
+.content .middleRecommend .handleSearch .checkWay .ant-form-item-control{
+  line-height: 0px;
+}
+.content .middleRecommend .handleSearch .checkWay .ant-form-item-control .ant-form-item-control-wrapper .ant-input{
+  background-color: #transparent !important;
+  border: solid 1px #5BBDFE;
+}
+
+.content .middleRecommend .handleSearch .dateWay{
+  display: inline-block;
+}
+
+.content .middleRecommend .handleSearch .middleAllSearch .ant-select-selection{
+  background-color: transparent;
+  color: #fff;
+  border: solid 1px #5BBDFE;
+  width: 147px;
+}
+
+    /*暂无数据*/
+.middleRecommend .ant-list-empty-text{
+    color: #fff;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+
+/*适配1920*/
+@media screen and (max-width: 1920px){
+
+  .content .searchWay .ant-col-12{
+    margin-left: 600px;
+  }
+  .content .searchWay .ant-col-12 .ant-radio-button-wrapper{
+    margin-left: 10px;
+  }
+  .content .searchWay .ant-col-12 .ant-radio-button-wrapper:first-child{
+    border-radius: 4px;
+  }
+  .content .searchWay .ant-col-12 .ant-radio-button-wrapper:last-child{
+    border-radius: 4px;
+  }
+  .content .searchWay .ant-col-12 .ant-radio-button-wrapper:not(:first-child)::before{
+    content: "";
+    height: 0px;
+  }
+  /*详细的搜索条件*/
+  .content .middleRecommend .handleSearch .middleAllSearch{
+    height: 32px;
+    margin-top: -3px;
+  }
+  .content .middleRecommend .handleSearch .checkWay{
+    margin-left: 300px;
+  }
+
+}
+
+/*适配1680*/
+@media screen and (max-width: 1680px)  {
+
+}
+
+/*适配1600*/
+@media screen and (max-width: 1600px) {
+
+}
+
+/*适配1366*/
+@media screen and (max-width: 1366px) {
+
+}

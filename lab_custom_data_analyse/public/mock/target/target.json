@@ -1,0 +1,18 @@
+
+{
+"name":"人员111",
+ "tap":["漫游达人","短信达人","通话达人","群发达人","话痨达人","私密达人"],
+ "userInfo":{
+ 		"phoneNum":"1310000001",
+ 		"IMSI":"46000000000000000000",
+ 		"city":"四川成都",
+ 		"language":"中国",
+ 		"mainConnecter":"是",
+ 		"mainTarget":"否",
+ 		"status":"活跃",
+ 		"lastLocation":"北京",
+ 		"recentContacter":["personOne","personTwo","personThree"],
+ 		"forginContacter":["012-233","0233-233"],
+ 		"rencentMainTarget":["XXXXX","xxxxx"]
+ 	}
+}

@@ -1,0 +1,78 @@
+/*修改头部背景色*/
+
+.ant-tabs-nav-scroll {
+  background-color: #e7f3ff;
+}
+
+/*去除头部导航下部的间距*/
+
+.ant-tabs-bar {
+  padding: 0px;
+  margin: 0px;
+}
+
+.ant-layout .ant-layout-sider {
+  min-width: 300px !important;
+  background-color: #e7f3ff;
+}
+
+.ant-layout .ant-layout-sider .ant-layout-sider-children .searchCondition p {
+  margin-bottom: 0px;
+  height: 30px;
+  line-height: 30px;
+  width: 100%;
+  background-color: #b2d0f7;
+  color: #1093ef;
+  text-align: center;
+  font-weight: 700;
+}
+
+.ant-layout .ant-layout-sider .ant-layout-sider-children .searchCondition .ant-calendar-picker {
+  margin: 10px 5px;
+}
+
+.ant-layout .ant-layout-sider .ant-layout-sider-children .searchCondition .ant-calendar-picker .ant-calendar-picker-input {
+  padding: 0px;
+}
+
+.ant-layout .ant-layout-sider .ant-layout-sider-children .searchCondition .ant-calendar-picker .ant-input-search .ant-input {
+  display: block !important;
+}
+
+.ant-layout .ant-layout-sider .ant-layout-sider-children .searchCondition .keyWords .ant-input {
+  width: auto;
+}
+
+.ant-layout .ant-layout-sider .ant-layout-sider-children .functionMenu p {
+  margin-bottom: 0px;
+  height: 30px;
+  line-height: 30px;
+  width: 100%;
+  background-color: #b2d0f7;
+  color: #1093ef;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.ant-layout .ant-layout-content .ant-table-row td {
+  border: solid 1px #ccc;
+  border-right: solid 0px #ccc;
+  border-bottom: solid 0px #ccc;
+}
+
+.ant-layout .ant-layout-content .ant-table-row td:last-child {
+  border-right: solid 1px #ccc;
+}
+
+.ant-layout .ant-layout-content .ant-table-body tr:last-child td {
+  border-bottom: solid 1px #ccc;
+}
+
+.ant-layout .ant-layout-content .ant-table-body .ant-table-thead tr th {
+  background-color: #b1cff3;
+  text-align: center;
+  border: solid 1px #ccc;
+  color: #3d56a0;
+  font-weight: 700;
+}

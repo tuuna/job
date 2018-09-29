@@ -1,0 +1,106 @@
+.area {
+  background-color: #08244a;
+}
+.area .area-tabs{
+  padding: 8px;
+}
+.area .ant-tabs-bar {
+  margin: 0;
+  color: #ffffff;
+}
+.area .ant-tabs-bar .ant-tabs-nav-scroll {
+  background-color: #073262;
+}
+.area .ant-tabs-nav .ant-tabs-tab {
+  margin-right: 0;
+}
+
+/*选择栏样式*/
+.area .ant-row.area-select {
+  height: 38px !important;
+  line-height: 36px;
+  margin-bottom: 8px;
+  border: solid 1px #5bbeff;
+  background-color: #073262;
+  color: #ffffff;
+  font-size: 14px;
+}
+.area .ant-col-20 {
+  width: 1048px !important;
+  font-size: 14px;
+  margin-left: 393px;
+}
+.area .ant-col-2 {
+  width: 86px !important;
+  font-size: 14px;
+}
+.area .area-select-address{
+  width: 1000px;
+}
+.area .ant-select {
+  color: #ffffff;
+}
+.area .ant-select .ant-select-selection {
+  background-color: #073262 !important;
+  border: solid 1px #5bbeff;
+}
+.area .ant-select .ant-select-arrow {
+  color: #ffffff;
+}
+.area .ant-select-selection--multiple .ant-select-selection__choice{
+  color: #ffffff;
+  background-color: #073262 !important;
+  border: solid 1px #5bbeff;
+}
+.area .ant-select-selection--multiple .ant-select-selection__choice__remove{
+  color: #FFFFFF;
+}
+
+
+/*地图样式*/
+.area .area-map {
+  /*height: 345px;*/
+  margin-bottom: 8px;
+  border: solid 1px #5bbeff;
+}
+
+/*柱状图样式*/
+.area .area-chart {
+  /*height: 393px;*/
+  border: solid 1px #5bbeff;
+  background-color: #073262;
+}
+
+/*适配1920*/
+@media screen and (max-width: 1920px) {
+  /*上方地图的高度*/
+  .area .area-map {
+    height: 345px;
+  }
+  /*下方柱状图和折线图的高度*/
+  .area .area-chart {
+    height: 393px;
+  }
+}
+
+/*适配1680*/
+@media screen and (max-width: 1680px) {
+  /*上方地图的高度*/
+  .area .area-map {
+    height: 326px;
+  }
+  /*下方柱状图和折线图的高度*/
+  .area .area-chart {
+    height: 382px;
+  }
+}
+
+/*适配1600*/
+@media screen and (max-width: 1600px) {
+
+}
+
+/*适配1366*/
+@media screen and (max-width: 1366px) {
+
+}

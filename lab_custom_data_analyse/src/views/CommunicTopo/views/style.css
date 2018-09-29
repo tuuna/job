@@ -1,0 +1,200 @@
+/* 内容背景样式及宽高解决方式 */
+/*.content{
+  overflow: visible;
+}*/
+
+/*搜索条件栏*/
+.TopoSearch{
+  height: 40px !important;
+  line-height: 40px;
+  margin: 8px !important;
+  border: solid 1px #5BBDFE;
+}
+.TopoSearch .ant-col-7{
+  color:#ffffff;
+}
+.TopoSearch .searchSelected{
+   padding-left: 100px !important;
+   margin-top: 3px;
+ }
+.TopoSearch .searchSelected .ant-select{
+    color: #ffffff;
+  }
+.TopoSearch .searchSelected .ant-select .ant-select-selection{
+    background-color: #073262 !important;
+    border: solid 1px #5BBDFE;
+    border-right: solid 0px #fff;
+  }
+.TopoSearch .searchSelected .ant-select .ant-select-arrow{
+    color:#ffffff;
+}
+.TopoSearch .ant-input-group .ant-input{
+  background-color: #073262;
+  border: solid 1px #5BBDFE;
+}
+/*input的placeholder的颜色兼容性*/
+.TopoSearch .ant-input-group .ant-input[type=text]::-webkit-input-placeholder { /* WebKit browsers */
+    color: #5BBEFF;
+}
+.TopoSearch .ant-input-group .ant-input[type=text]::-moz-placeholder { /* moz browsers */
+    color: #5BBEFF;
+}
+.TopoSearch .ant-input-group .ant-input[type=text]:-ms-input-placeholder { /* ms browsers */
+    color: #5BBEFF;
+}
+/*日期选择框的样式*/
+.TopoSearch .ant-col-7 .ant-calendar-picker .ant-calendar-picker-input .ant-calendar-range-picker-input::-webkit-input-placeholder {
+  color: #5BBEFF;
+}
+.TopoSearch .ant-col-7 .ant-calendar-picker {
+  background-color: #073262;
+}
+.TopoSearch .ant-col-7 .ant-calendar-picker .ant-input{
+  background-color: transparent;
+  border: solid 1px #5BBEFF;
+}
+.TopoSearch .ant-col-7 .ant-calendar-picker .ant-calendar-picker-input .ant-calendar-range-picker-separator{
+  color: #5BBEFF;
+}
+.TopoSearch .ant-col-7 .ant-calendar-picker .ant-calendar-picker-input  .ant-calendar-picker-icon:after{
+  color: #5BBEFF;
+}
+
+
+/*下方正文内容样式*/
+.topoBelowContent .communicTopo{
+  display: inline-block;
+  float:left;
+  margin-left: 8px;
+  margin-bottom: 8px;
+  border: solid 1px #5BBEFF;
+}
+.topoBelowContent .communicTopo .communicTopoTitle{
+  height: 40px;
+  line-height: 40px;
+  padding-left: 20px;
+  font-size: 16PX;
+  color:#5BBEFF;
+}
+/* 通信详细信息 */
+.topoBelowContent .chartContent{
+  display: inline-block;
+  float:left;
+  border: solid 1px #5BBEFF;
+  margin-left: 8px;
+  margin-bottom: 8px;
+  margin-right: 8px;
+}
+.topoBelowContent .chartContent .ant-tabs-bar{
+  margin: 0 0 1px 0;
+}
+.topoBelowContent .chartContent .ant-tabs-bar .ant-tabs-nav-scroll{
+  background-color: #073262;
+}
+.topoBelowContent .chartContent .tableTitle{
+  height: 40px;
+  line-height: 40px;
+  background-color: #073262;
+  color: #2F95DC;
+  margin-bottom: 1px;
+}
+.topoBelowContent .chartContent .tableTitle .condition{
+  margin-left: 10px;
+}
+.topoBelowContent .chartContent .tableTitle .ant-btn {
+  float: right;
+  margin-top: 8px;
+  margin-right: 100px;
+  background-color: #3FA4ED;
+  border: solid 0px #3FA4ED;
+  color: #FFFFFF;
+}
+/*通信详情table样式*/
+.topoBelowContent .chartContent .ant-table-content .ant-table-thead tr th {
+  background-color: #073262;
+  color:#ffffff;
+}
+.topoBelowContent .chartContent .ant-table-content .ant-table-thead > tr > th {
+  border-bottom: solid 1px #071F41;
+}
+.topoBelowContent .chartContent .ant-table-content .ant-table-tbody > tr > td{
+  color: #FFFFFF;
+  border-bottom: solid 0px #ffffff;
+}
+.topoBelowContent .chartContent .ant-table-content .ant-table-tbody > tr:hover > td{
+  background-color: #286AA1;
+}
+/*页脚*/
+.topoBelowContent .chartContent .ant-pagination{
+  margin: 16px !important;
+  color: #ffffff;
+}
+.topoBelowContent .chartContent .ant-pagination li{
+  margin-left: 4px;
+  margin-right: 4px;
+}
+.topoBelowContent .chartContent .ant-pagination .ant-pagination-prev a {
+  color: #ffffff;
+}
+.topoBelowContent .chartContent .ant-pagination .ant-pagination-next a {
+  color: #ffffff;
+}
+.topoBelowContent .chartContent .ant-pagination .ant-pagination-item{
+  border: solid 1px #2F95DC !important;
+  background-color: #073262;
+}
+.topoBelowContent .chartContent .ant-pagination .ant-pagination-item-active{
+  background-color: #2F95DC;
+}
+.topoBelowContent .chartContent .ant-pagination .ant-pagination-item a{
+  color: #ffffff;
+}
+.topoBelowContent .chartContent .ant-pagination .ant-pagination-options-quick-jumper input{
+  border: solid 1px #2F95DC;
+  background-color: #073262;
+}
+
+
+/*清除浮动*/
+.topoBelowContent:after{
+  display: block;
+  visibility: hidden;
+  clear: both;
+  height: 0;
+  content: ".";
+}
+.topoBelowContent{
+  zoom:1;
+}
+
+/*适配1920*/
+@media screen and (max-width: 1920px){
+  .TopoSearch .searchSelected{
+     padding-left: 100px !important;
+     margin-top: 3px;
+   }
+   .topoBelowContent .communicTopo{
+     display: inline-block;
+     width: 800px;
+     height: 600px;
+   }
+   .topoBelowContent .chartContent{
+    width: 1076px;
+   }
+
+}
+
+/*适配1680*/
+@media screen and (max-width: 1680px)  {
+
+}
+
+/*适配1600*/
+@media screen and (max-width: 1600px) {
+
+}
+
+/*适配1366*/
+@media screen and (max-width: 1366px) {
+
+}

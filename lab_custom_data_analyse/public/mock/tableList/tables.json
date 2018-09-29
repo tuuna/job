@@ -1,0 +1,30 @@
+{
+  "data": [
+    {
+      "key":"1",
+      "TABLENAME": "ACT_SUM",
+      "COMMENTS": " "
+    },
+    {
+      "key":"2",
+      "TABLENAME": "BONUS",
+      "COMMENTS": " "
+    },
+    {
+      "key":"3",
+      "TABLENAME": "DEPT",
+      "COMMENTS": " "
+    },
+    {
+      "key":"4",
+      "TABLENAME": "POS_INFO",
+      "COMMENTS": " "
+    },
+    {
+      "key":"5",
+      "TABLENAME": "SALGRADE",
+      "COMMENTS": " "
+    }
+  ]
+}
+

@@ -1,0 +1,31 @@
+.layout{
+	background-color: #002B4A;
+}
+.header {
+	width: 100%;
+	padding: 10px;
+}
+.header .logo {
+	width: 138px;
+	height: 64px;
+	/*background-image: url("../../image/logo.png");*/
+	margin: 0 0 0 0;
+	float: left;
+}
+
+.ant-menu {
+	width: 100%;
+	z-index: 9999;
+}
+
+.menu1 {
+	width: 100%;
+	color: #fff;
+}
+/*.ant-layout{*/
+/*display: inline-block !important;*/
+/*}*/
+
+.totalBackground {
+	background-color: #002B4A;
+}

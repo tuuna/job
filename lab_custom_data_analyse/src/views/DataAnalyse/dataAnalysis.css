@@ -1,0 +1,131 @@
+.dataAnalysis .ant-input{
+    color: #ffffff !important;
+    background-color: #073262 !important;
+    border: solid 1px #5bbeff !important;
+}
+.dataAnalysis .ant-collapse > .ant-collapse-item > .ant-collapse-header {
+    color: #ffffff !important;
+}
+.dataAnalysis .ant-collapse {
+    background-color: #073262 !important;
+    /* border: solid 1px #5bbeff !important; */
+    /* border-bottom: 0 */
+}
+.dataAnalysis .ant-collapse-borderless > .ant-collapse-item{
+    border-bottom: 0
+}
+.dataAnalysis .ant-collapse-borderless > .ant-collapse-item > .ant-collapse-content > .ant-collapse-content-box {
+    padding-top: 15px
+}
+/* .dataAnalysis .ant-collapse > .ant-collapse-item {
+    border-bottom: solid 1px #5bbeff !important;
+} */
+/* 能改变列宽的表格 */
+/* .dataAnalysis .rs-table {
+    margin-top: 10px
+}
+.dataAnalysis .rs-table-cell {
+    color: #ffffff
+} */
+/* 只有展示功能的表格 */
+.dataAnalysis .ant-table-small {
+    margin-top: 10px;
+    border:1px solid #5bbeff !important; 
+}
+.dataAnalysis .ant-table-content .ant-table-thead tr th {
+    background-color: #073262 !important; 
+}
+.dataAnalysis .ant-table-fixed-header > .ant-table-content > .ant-table-scroll > .ant-table-body {
+    background-color: #073262; 
+}
+.dataAnalysis .ant-table-content .ant-table-tbody > tr > td {
+    border-bottom:solid 1px #5bbeff !important; 
+    border-right:solid 1px #5bbeff !important; 
+}
+.dataAnalysis .ant-table-small > .ant-table-content > .ant-table-scroll > .ant-table-header > table > .ant-table-thead > tr > th {
+    border-bottom:solid 1px #5bbeff !important; 
+    border-right:solid 1px #5bbeff !important; 
+}
+.dataAnalysis .ant-calendar-picker-input {
+    width: 250px !important;
+}
+.dataAnalysis .ant-select-selection__rendered{
+    color: #ffffff !important;
+    background-color: #073262 !important;
+    border-right: solid 0.5px #5bbeff !important;
+    margin: 0 0px !important;
+}
+.dataAnalysis .ant-select-selection {
+    border: solid 0.5px #5bbeff !important;
+}
+.dataAnalysis .ant-calendar-picker-input{
+    color: #ffffff !important;
+    background-color: #073262 !important;
+    border: solid 1px #5bbeff !important;
+}
+.dataAnalysis .ant-card {
+    background: rgb(7, 50, 98) !important;
+    padding: 5px !important;
+    border-style: solid !important;
+    border-color: rgb(91, 190, 255) !important;
+    border-width: 1px !important;
+    margin: 3px !important;
+    height: 390px !important;
+}
+.dataAnalysis .ant-menu-dark {
+    background-color: #062C57 !important;
+}
+.dataAnalysis .ant-menu.ant-menu-dark .ant-menu-item-selected {
+    background-color: #28669A !important;
+}
+.dataAnalysis .ant-tabs-nav-scroll {
+    background-color: #073262 !important;
+}
+
+.dataAnalysis .ant-tabs-tab {
+    color: #ffffff !important;
+    background: rgb(8, 36, 74) !important;
+    border: solid 1px #5bbeff !important
+}
+.dataAnalysis .ant-tabs-tab-active {
+    color: rgb(0, 145, 164) !important;
+    padding-bottom: 0px !important;
+}
+.dataAnalysis .ant-tabs-nav .ant-tabs-tab {
+    height: 30px !important;
+}
+.dataAnalysis .ant-tabs.ant-tabs-card > .ant-tabs-bar .ant-tabs-nav-container {
+    height: 30px !important;
+}
+.dataAnalysis .ant-tabs.ant-tabs-card > .ant-tabs-bar .ant-tabs-tab {
+    border-radius: 4px 4px 4px 4px !important;
+    line-height: 30px !important;
+}
+.dataAnalysis .ant-tag {
+    color: #ffffff !important;
+    background-color: #073262 !important;
+    border: solid 1px #5bbeff !important;
+    margin-top: 8px !important
+}
+.dataAnalysis .ant-tag-checkable-checked{
+    color: #ffffff !important;
+    background-color: #5bbeff !important;
+    border: solid 1px #5bbeff !important;
+}
+.dataAnalysis .ant-input-search-icon {
+    color: #5bbeff !important
+}
+.ant-calendar-input {
+    background-color: #073262 !important;
+    color: #5BBDFE !important;
+}
+.ant-calendar-time-picker-inner {
+    background-color: #073262 !important;
+    color: #ffffff !important;
+}
+.ant-calendar-time-picker-select li:hover{
+    background-color: #28669A !important;
+}
+.ant-calendar-time-picker-select-option-selected {
+    background-color: #28669A !important;
+}

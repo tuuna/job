@@ -1,0 +1,13 @@
+{ "userContacterTradData":[
+	{"id":"1","phoneNum":"13129644121","part":"0","connectionWay":"短信","originLocation":"四川成都","targetLocation":"成都","trance":"AAA-BBB-CCC-XXX-12345","recentConnectionDate":"2018-05-25 11:29:11","averageCoastTime":"12:10","longestCoastTime":"35:30","connectionCount":"35"},	
+	{"id":"2","phoneNum":"15111111111","part":"0","connectionWay":"电话","originLocation":"四川成都","targetLocation":"成都","trance":"AAA-BBB-CCC-XXX-12345","recentConnectionDate":"2018-05-23 11:29:11","averageCoastTime":"12:10","longestCoastTime":"35:30","connectionCount":"31"},
+	{"id":"3","phoneNum":"12129644121","part":"1","connectionWay":"电话","originLocation":"拉萨","targetLocation":"成都","trance":"AAA-BBB-CCC-XXX-12345","recentConnectionDate":"2018-05-25 11:29:11","averageCoastTime":"10:10","longestCoastTime":"35:30","connectionCount":"28"},
+	{"id":"4","phoneNum":"13145667777","part":"1","connectionWay":"短信","originLocation":"西安","targetLocation":"成都","trance":"AAA-BBB-CCC-XXX-12346","recentConnectionDate":"2018-05-25 11:29:11","averageCoastTime":"5:10","longestCoastTime":"35:30","connectionCount":"20"},
+	{"id":"5","phoneNum":"18888888888","part":"0","connectionWay":"电话","originLocation":"四川成都","targetLocation":"成都","trance":"AAA-BBB-CCC-XXX-12345","recentConnectionDate":"2018-05-25 11:29:11","averageCoastTime":"12:10","longestCoastTime":"35:30","connectionCount":"15"},
+	{"id":"6","phoneNum":"18778887777","part":"0","connectionWay":"电话","originLocation":"四川成都","targetLocation":"成都","trance":"AAA-BBB-CCC-XXX-12345","recentConnectionDate":"2018-05-25 11:29:11","averageCoastTime":"12:10","longestCoastTime":"35:30","connectionCount":"14"},
+	{"id":"7","phoneNum":"13129644121","part":"0","connectionWay":"电话","originLocation":"四川成都","targetLocation":"南充","trance":"AAA-BBB-CCC-XXX-12346","recentConnectionDate":"2018-05-25 11:29:11","averageCoastTime":"12:10","longestCoastTime":"35:30","connectionCount":"13"},
+	{"id":"8","phoneNum":"13129644121","part":"1","connectionWay":"短信","originLocation":"绵阳","targetLocation":"成都","trance":"AAA-BBB-CCC-XXX-12345","recentConnectionDate":"2018-05-25 11:29:11","averageCoastTime":"12:10","longestCoastTime":"35:30","connectionCount":"12"},
+	{"id":"9","phoneNum":"13129644121","part":"1","connectionWay":"电话","originLocation":"四川成都","targetLocation":"成都","trance":"AAA-BBB-CCC-XXX-1232","recentConnectionDate":"2018-05-25 11:29:11","averageCoastTime":"12:10","longestCoastTime":"35:30","connectionCount":"11"},
+	{"id":"10","phoneNum":"13129644121","part":"0","connectionWay":"电话","originLocation":"四川成都","targetLocation":"成都","trance":"AAA-BBB-CCC-XXX-12345","recentConnectionDate":"2018-05-25 11:29:11","averageCoastTime":"12:10","longestCoastTime":"35:30","connectionCount":"10"}	
+]
+}

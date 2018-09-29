@@ -1,0 +1,63 @@
+/*公告栏*/
+.pushNotice {
+  background-color: #ECECEC !important;
+  min-height: 200px;
+}
+.pushNotice .ant-card .ant-card-head {
+  background: #ccc !important;
+  border: solid #333 1px
+}
+.pushNotice .ant-card-head-title{
+  font-weight: 700;
+  font-size: 14px;
+  color: #555;
+  background-color: #ccc;
+}
+.pushNotice .referee p{
+  display: flex;
+  justify-content: space-around;
+
+}
+/*公告信息*/
+.pushNotice .notice .ant-card-body{
+  padding: 7px 0px 0px 0px !important;
+  margin-bottom: 10px;
+}
+.pushNotice .noticeName {
+  display: inline-block;
+  width: 15%;
+  height: 80px;
+  line-height: 80px;
+  border: solid #ccc 1px;
+  border-top: solid #ccc 0px;
+  text-align: center;
+}
+.pushNotice .noticeContent {
+  display: inline-block;
+  width: 85%;
+  height: 80px;
+  line-height: 80px;
+  border: solid #ccc 1px;
+  border-top: solid #ccc 0px;
+  border-left: solid #ccc 0px;
+  text-align: center;
+}
+/*适配1920*/
+@media screen and (max-width: 1920px) {
+
+}
+
+/*适配1680*/
+@media screen and (max-width: 1680px) {
+
+}
+
+/*适配1600*/
+@media screen and (max-width: 1600px) {
+
+}
+
+/*适配1366*/
+@media screen and (max-width: 1366px) {
+
+}

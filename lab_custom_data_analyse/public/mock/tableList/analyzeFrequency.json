@@ -1,0 +1,16 @@
+{
+  "data": [
+    {
+      "NUM": 28,
+      "DESTIPCOUNTRY": "中国重庆电信ADSL"
+    },
+    {
+      "NUM": 25,
+      "DESTIPCOUNTRY": "中国重庆联通ADSL"
+    },
+    {
+      "NUM": 22,
+      "DESTIPCOUNTRY": "中国重庆移动ADSL"
+    }
+  ]
+}

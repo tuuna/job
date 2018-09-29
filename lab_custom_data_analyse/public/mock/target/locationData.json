@@ -1,0 +1,13 @@
+{
+  "locationData":{
+  	"data":[
+        	{"id":"1","time":"2018-05-30","position":"四川成都"},
+        	{"id":"2","time":"2018-05-29","position":"四川成都"},
+        	{"id":"3","time":"2018-05-28","position":"四川成都"},
+        	{"id":"4","time":"2018-05-27","position":"四川成都"},
+        	{"id":"5","time":"2018-05-26","position":"四川成都"}
+        ],
+  	"total":13,
+    "current":2
+  }
+    }

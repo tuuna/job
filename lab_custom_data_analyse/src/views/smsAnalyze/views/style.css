@@ -1,0 +1,28 @@
+.smsAnalyse::after{
+  display: block;
+  visibility: hidden;
+  clear: both;
+  height: 0;
+  content: "";
+}
+.smsAnalyse{
+  width: 100%;
+  zoom:1;
+}
+.smsAnalyse .smsLanguageTop{
+  display: inline-block;
+  float: left;
+  width: 33%;
+  margin: 0px 10px;
+}
+.smsAnalyse .appReceive{
+  display: inline-block;
+  float: left;
+  width: 20%;
+  margin-right: 10px;
+}
+.smsAnalyse .appTarget{
+  display: inline-block;
+  float: left;
+  width: 45%;
+}

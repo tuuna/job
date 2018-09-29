@@ -1,0 +1,16 @@
+{
+	"data":[
+        	{"id":"1","appName":"知乎","times":20000},
+        	{"id":"2","appName":"知乎","times":340000},
+        	{"id":"3","appName":"微博","times":20333},
+        	{"id":"4","appName":"微博","times":10000},
+        	{"id":"5","appName":"抖音","times":3400},
+        	{"id":"6","appName":"抖音","times":2001},
+        	{"id":"7","appName":"知乎","times":2000},
+        	{"id":"8","appName":"微信","times":1780},
+        	{"id":"9","appName":"QQ","times":1200},
+        	{"id":"10","appName":"支付宝","times":20}  	
+        ],
+  	"total":13,
+    "current":1
+}

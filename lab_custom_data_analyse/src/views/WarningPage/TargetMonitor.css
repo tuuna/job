@@ -1,0 +1,372 @@
+/*页面整体背景色和边距*/
+.target-monitor {
+  padding: 8px;
+  background-color: #08244a;
+}
+
+/*查询条件样式*/
+.target-query {
+  height: 38px;
+  line-height: 36px;
+  margin: 0 0 8px !important;
+  border: solid 1px #5bbeff;
+  color: #ffffff;
+}
+.target-query .ant-col-6 {
+  width: 400px !important;
+  font-size: 14px;
+}
+.target-query .ant-col-4 {
+  width: 180px !important;
+  font-size: 14px;
+}
+.target-query .ant-col-2 {
+  width: 85px !important;
+  font-size: 14px;
+}
+.target-query .target-query-start {
+  padding-left: 10px !important;
+  margin-top: 2px;
+}
+.target-query .ant-select {
+  color: #ffffff;
+}
+.target-query .ant-select .ant-select-selection {
+  background-color: #073262 !important;
+  border: solid 1px #5bbeff;
+}
+.target-query .ant-select .ant-select-arrow {
+  color: #ffffff;
+}
+.target-query .ant-input-group .ant-input {
+  color: #ffffff;
+  background-color: #073262;
+  border: solid 1px #5bbeff;
+}
+.target-query .ant-calendar-range-picker-input {
+  color: #ffffff;
+}
+.target-query .ant-calendar-picker {
+  background-color: #073262;
+}
+.target-query .ant-calendar-picker .ant-input {
+  background-color: transparent;
+  border: solid 1px #5bbeff;
+}
+.target-query .ant-calendar-range-picker-separator {
+  color: #5bbeff;
+}
+.target-query .ant-calendar-picker-icon:after {
+  color: #5bbeff;
+}
+
+/*两个地图的样式*/
+.target-monitor .target-map-box {
+  border: solid 1px #5bbeff;
+}
+.target-monitor .target-map-title {
+  line-height: 24px;
+  font-size: 14px;
+  background-color: #073262;
+  color: #5bbeff;
+}
+.target-monitor .target-map {
+  /*height: 330px;*/
+  width: 100%;
+}
+
+/*下方表格和饼图样式*/
+.target-monitor .target-content .target-table-box {
+  margin-top: 8px;
+  border: solid 1px #5bbeff;
+}
+.target-monitor .target-content .target-table-box .target-table-title {
+  line-height: 24px;
+  font-size: 14px;
+  margin: 0;
+  padding: 0;
+  background-color: #073262;
+  color: #5bbeff;
+}
+.target-monitor .target-content .target-pie {
+  /*height: 426px;*/
+  margin-top: 8px;
+  background: #073262;
+  border: solid 1px #5bbeff;
+}
+
+/*表格*/
+.target-monitor .target-table {
+  background-color: #073262;
+}
+.target-monitor .target-table .ant-table-body {
+  border-bottom: solid 1px #073262;
+}
+.target-monitor
+  .ant-table-middle
+  > .ant-table-content
+  > .ant-table-header
+  > table
+  > .ant-table-thead
+  > tr
+  > th,
+.target-monitor
+  .ant-table-middle
+  > .ant-table-content
+  > .ant-table-body
+  > table
+  > .ant-table-thead
+  > tr
+  > th,
+.target-monitor
+  .ant-table-middle
+  > .ant-table-content
+  > .ant-table-scroll
+  > .ant-table-header
+  > table
+  > .ant-table-thead
+  > tr
+  > th,
+.target-monitor
+  .ant-table-middle
+  > .ant-table-content
+  > .ant-table-scroll
+  > .ant-table-body
+  > table
+  > .ant-table-thead
+  > tr
+  > th,
+.target-monitor
+  .ant-table-middle
+  > .ant-table-content
+  > .ant-table-fixed-left
+  > .ant-table-header
+  > table
+  > .ant-table-thead
+  > tr
+  > th,
+.target-monitor
+  .ant-table-middle
+  > .ant-table-content
+  > .ant-table-fixed-right
+  > .ant-table-header
+  > table
+  > .ant-table-thead
+  > tr
+  > th,
+.target-monitor
+  .ant-table-middle
+  > .ant-table-content
+  > .ant-table-fixed-left
+  > .ant-table-body-outer
+  > .ant-table-body-inner
+  > table
+  > .ant-table-thead
+  > tr
+  > th,
+.target-monitor
+  .ant-table-middle
+  > .ant-table-content
+  > .ant-table-fixed-right
+  > .ant-table-body-outer
+  > .ant-table-body-inner
+  > table
+  > .ant-table-thead
+  > tr
+  > th,
+.target-monitor
+  .ant-table-middle
+  > .ant-table-content
+  > .ant-table-header
+  > table
+  > .ant-table-tbody
+  > tr
+  > td,
+.target-monitor
+  .ant-table-middle
+  > .ant-table-content
+  > .ant-table-body
+  > table
+  > .ant-table-tbody
+  > tr
+  > td,
+.target-monitor
+  .ant-table-middle
+  > .ant-table-content
+  > .ant-table-scroll
+  > .ant-table-header
+  > table
+  > .ant-table-tbody
+  > tr
+  > td,
+.target-monitor
+  .ant-table-middle
+  > .ant-table-content
+  > .ant-table-scroll
+  > .ant-table-body
+  > table
+  > .ant-table-tbody
+  > tr
+  > td,
+.target-monitor
+  .ant-table-middle
+  > .ant-table-content
+  > .ant-table-fixed-left
+  > .ant-table-header
+  > table
+  > .ant-table-tbody
+  > tr
+  > td,
+.target-monitor
+  .ant-table-middle
+  > .ant-table-content
+  > .ant-table-fixed-right
+  > .ant-table-header
+  > table
+  > .ant-table-tbody
+  > tr
+  > td,
+.target-monitor
+  .ant-table-middle
+  > .ant-table-content
+  > .ant-table-fixed-left
+  > .ant-table-body-outer
+  > .ant-table-body-inner
+  > table
+  > .ant-table-tbody
+  > tr
+  > td,
+.target-monitor
+  .ant-table-middle
+  > .ant-table-content
+  > .ant-table-fixed-right
+  > .ant-table-body-outer
+  > .ant-table-body-inner
+  > table
+  > .ant-table-tbody
+  > tr
+  > td {
+  padding: 7px;
+  color: #ffffff;
+}
+.target-monitor .ant-table-thead > tr > th {
+  background-color: #073262;
+  border-bottom: solid 1px #08244a;
+}
+.target-monitor .ant-table-tbody > tr > td {
+  border-bottom: 0;
+}
+.target-monitor .ant-table-tbody > tr:hover > td {
+  background-color: #2f95dc;
+}
+.target-monitor .ant-table-content {
+  border-bottom: solid 1px #08244a;
+}
+.target-monitor .ant-table-placeholder {
+  color: #ffffff;
+  background-color: #073262;
+  border-bottom: solid 1px #08244a;
+}
+
+/*表格双击弹出框样式*/
+.target-modal .ant-modal-content {
+  color: #ffffff;
+  background-color: #073262;
+}
+.target-modal .ant-confirm-body .ant-confirm-title {
+  color: #ffffff;
+}
+.target-modal .ant-confirm-body .ant-confirm-content {
+  color: #ffffff;
+}
+
+/*页脚*/
+.target-monitor .ant-pagination li {
+  margin-right: 8px;
+}
+.target-monitor .ant-table-pagination.ant-pagination {
+  margin: 11px 0;
+}
+.target-monitor .ant-pagination-prev a {
+  color: #ffffff;
+}
+.target-monitor .ant-pagination-next a {
+  color: #ffffff;
+}
+.target-monitor .ant-pagination-jump-prev:after {
+  color: #ffffff;
+}
+.target-monitor .ant-pagination-jump-next:after {
+  color: #ffffff;
+}
+.target-monitor .ant-pagination-item {
+  border: solid 1px #2f95dc !important;
+  background-color: #073262;
+}
+.target-monitor .ant-pagination-item-active {
+  background-color: #2f95dc;
+}
+.target-monitor .ant-pagination-item a {
+  color: #ffffff;
+}
+.target-monitor .ant-pagination.mini .ant-pagination-options {
+  margin-left: 8px;
+}
+.target-monitor .ant-pagination-options-quick-jumper input {
+  color: #ffffff;
+  border: solid 1px #2f95dc;
+  background-color: #073262;
+}
+.target-monitor .ant-pagination-options-quick-jumper {
+  color: #ffffff;
+}
+.target-monitor .ant-pagination-total-text {
+  color: #ffffff;
+}
+.target-monitor .ant-pagination-item-link {
+  color: #ffffff;
+}
+
+/*适配1920*/
+@media screen and (max-width: 1920px) {
+  /*上方地图高度*/
+  .target-monitor .target-map {
+    height: 330px;
+  }
+  /*下方饼图的高度，表格高度由行数（9）决定*/
+  .target-monitor .target-pie {
+    height: 426px;
+  }
+}
+
+/*适配1680*/
+@media screen and (max-width: 1680px) {
+  /*上方地图高度*/
+  .target-monitor .target-map {
+    height: 300px;
+  }
+  /*下方饼图的高度，表格高度由行数（9）决定*/
+  .target-monitor .target-pie {
+    height: 426px;
+  }
+}
+
+/*适配1600*/
+@media screen and (max-width: 1600px) {
+  /*上方地图高度*/
+  .target-monitor .target-map {
+    height: 240px;
+  }
+  /*调整表格页脚边框*/
+  .target-monitor .ant-table-pagination.ant-pagination {
+    margin: 1px 0;
+  }
+  /*下方饼图的高度，表格高度由行数（7）决定*/
+  .target-monitor .target-pie {
+    height: 336px;
+  }
+}
+
+/*适配1366*/
+@media screen and (max-width: 1366px) {
+}

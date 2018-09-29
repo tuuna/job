@@ -1,0 +1,75 @@
+{
+  "data": [{
+      "id": "1",
+      "sigType": "message",
+      "sigTypeName": "短信",
+      "num": 20,
+      "percent": "20"
+    },
+    {
+      "id": "2",
+      "sigType": "host",
+      "sigTypeName": "主机",
+      "num": 20,
+      "percent": "20"
+    },
+    {
+      "id": "3",
+      "sigType": "change_sim",
+      "sigTypeName": "换卡",
+      "num": 20,
+      "percent": "20"
+    },
+    {
+      "id": "4",
+      "sigType": "CALL",
+      "sigTypeName": "主被叫",
+      "num": 20,
+      "percent": "20"
+    },
+    {
+      "id": "5",
+      "sigType": "COLSE",
+      "sigTypeName": "开关机",
+      "num": 20,
+      "percent": "20"
+    },
+    {
+      "id": "6",
+      "sigType": "G_UPDATE",
+      "sigTypeName": "周期性位置更新",
+      "num": 20,
+      "percent": "20"
+    },
+    {
+      "id": "7",
+      "sigType": "POSTION",
+      "sigTypeName": "强制性位置更新",
+      "num": 20,
+      "percent": "20"
+    },
+    {
+      "id": "8",
+      "sigType": "CHANGE",
+      "sigTypeName": "切换",
+      "num": 20,
+      "percent": "20"
+    },
+    {
+      "id": "9",
+      "sigType": "change_PHONE",
+      "sigTypeName": "换手机",
+      "num": 20,
+      "percent": "20"
+    },
+    {
+      "id": "0",
+      "sigType": "IMEI",
+      "sigTypeName": "IMEI",
+      "num": 20,
+      "percent": "20"
+    }
+  ],
+  "total": 13,
+  "current": 2
+}

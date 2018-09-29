@@ -1,0 +1,53 @@
+/*信令拓扑分析搜索头部*/
+.signSearch {
+  background-color: #fff;
+  width: 99%;
+  height: 40px;
+  margin: 10px;
+  zoom:1;
+}
+.signSearch::after{
+  display: block;
+  visibility: hidden;
+  content: "";
+  height: 0;
+  clear: both;
+}
+.signSearch .country{
+  margin-left: 200px;
+  width: 20%;
+  float: left;
+}
+.signSearch .searchSelected {
+  width: 20%;
+  float: left;
+}
+.signSearch .timeSelected{
+  width: 20%;
+  float: left;
+}
+.signSearch .buttonSelected{
+  margin-top: 4px;
+  margin-left: 50px;
+  width: 10%;
+  float: left;
+}
+
+/*信令拓扑内容*/
+.searchContent {
+  display: flex;
+  justify-content: space-between;
+  background-color: #ccc;
+  margin: 0px 10px;
+}
+.searchContent .signTopo{
+  display: inline-block;
+  width: 60%;
+  background-color: #888;
+  margin-right: 10px;
+}
+.searchContent .allNodeInformation{
+  display: inline-block;
+  background-color: #fff;
+  width: 40%;
+}

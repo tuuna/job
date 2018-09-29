@@ -1,0 +1,30 @@
+{
+  "data": [
+    {
+      "key":"1",
+      "COLUMNNAME": "VOICE_MESSAGE",
+      "COMMENTS": " "
+    },
+    {
+      "key":"2",
+      "COLUMNNAME": "UUU",
+      "COMMENTS": " "
+    },
+    {
+      "key":"3",
+      "COLUMNNAME": "YYY",
+      "COMMENTS": " "
+    },
+    {
+      "key":"4",
+      "COLUMNNAME": "VOICE_MESSAGE",
+      "COMMENTS": " "
+    },
+    {
+      "key":"5",
+      "COLUMNNAME": "GRADE",
+      "COMMENTS": " "
+    }
+  ]
+}
+

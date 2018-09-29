@@ -1,0 +1,54 @@
+{
+"data":[{
+			"middlePerson":{
+				"name":"张三",
+				"status":"0",
+				"desc":["电话达人","短信达人","待机老手"],
+				"phoneNum":"121000000000",
+				"imsi":"4601111111111111111111",
+				"phoneLocation":"成都",
+				"nowPosition":"成都",
+				"middlePerson":"是",
+                "target":"否"
+		     },
+		     "targetA":{
+				"name":"李四",
+		     	"intimacyLevel":80,
+		     	"status":"0",
+				"desc":["电话达人","短信达人","待机老手"],
+				"phoneNum":"111111111111111111",
+				"imsi":"1111122333344444444",
+				"phoneLocation":"成都",
+				"nowPosition":"成都",
+				"middlePerson":"是",
+                "target":"否",
+                "contactWay":"短信,电话",
+                "totalCommuniTimes":23,
+                "lastestCommuniDate":"2018/05/24 20:00",
+                "postionCoincideNum":2,
+                "mesActionNum":20,
+                "communitActionNum":14,
+                "sensitiveWordNum":39
+		     },"targetB":{
+		     	"name":"王五",
+		     	"intimacyLevel":80,
+		     	"status":"0",
+				"desc":["电话达人","短信达人","待机老手"],
+				"phoneNum":"111111111111111111",
+				"imsi":"1111122333344444444",
+				"phoneLocation":"成都",
+				"nowPosition":"成都",
+				"middlePerson":"是",
+                "target":"否",
+                "contactWay":"短信,电话",
+                "totalCommuniTimes":11,
+                "lastestCommuniDate":"2018/05/24 20:00",
+                "postionCoincideNum":22,
+                "mesActionNum":11,
+                "communitActionNum":20,
+                "sensitiveWordNum":1
+		     }},
+	 {"personOne":{},"personTwo":{},"personTree":{}},
+	 {"personOne":{},"personTwo":{},"personTree":{}}
+	]
+}

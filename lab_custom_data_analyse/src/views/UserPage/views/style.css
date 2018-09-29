@@ -1,0 +1,318 @@
+/*清除浮动*/
+.clearFloat:after{
+	display: block;
+	visibility: hidden;
+	clear: both;
+	height: 0;
+	content: ".";
+}
+.clearFloat{
+	zoom:1;
+}
+/* 内容背景 */
+.content{
+	background-color: #08244a;
+}
+.content .ant-layout.ant-layout-has-sider > .ant-layout, .ant-layout.ant-layout-has-sider > .ant-layout-content{
+	overflow-x: visible !important;
+}
+/*左侧用户信息任务列表*/
+.targetMain .ant-layout.ant-layout-has-sider{
+	background-color: #08244a;
+}
+.userPage .targetList{
+	width: 200px !important;
+	margin: 8px 4px 8px 8px;
+}
+.userPage .targetList .userPageList{
+	font-size: 16px;
+	color: #2F95DC;
+	font-weight: 700;
+	height: 60px;
+}
+.userPage .targetList .userPageList span{
+	display: inline-block;
+	line-height: 60px;
+	margin-left: 10px;
+}
+.userPage .ant-layout-sider-children{
+	width: 200px;
+	background-color: #073262;
+}
+.userPage .ant-layout-sider-children .ant-menu-dark{
+	background-color: #073262;
+}
+.userPage .ant-layout-sider-children .ant-menu-dark .ant-menu-inline.ant-menu-sub{
+	background-color: #05264c;
+}
+
+.userPage .ant-layout-sider-children .ant-menu-dark .ant-menu-item-selected{
+	background-color: #108DE9;
+}
+.userPage .ant-layout .ant-layout-sider{
+	min-width: 200px !important;
+	background-color: #073262;
+	height: auto;
+}
+.userPage .ant-layout-sider-trigger{
+	background-color: #073262;
+}
+
+/*右侧用户信息正文内容*/
+.content_main{
+	height: 100%;
+	margin: 8px 8px 8px 4px;
+	overflow-x: none;
+}
+/*.ant-layout.ant-layout-has-sider > .ant-layout, .ant-layout.ant-layout-has-sider > .ant-layout-content{
+	overflow: hidden;
+}*/
+.content_main .noChoice{
+	text-align: center;
+	height: 40px;
+	line-height: 40px;
+	background-color: #073262;
+	color: #ffffff;
+	font-size: 16px;
+}
+/*用户维度信息*/
+.content_main .userAllInfo{
+	float: left;
+	margin-bottom: 8px;
+	border: solid 1px #5BBDFE;
+}
+.content_main .userAllInfo .targetInfoTitle{
+	width: 100%;
+	height: 40px;
+	line-height: 40px;
+}
+.content_main .userAllInfo .targetInfoTitle span{
+	color: #2F95DC;
+	margin-left: 10px;
+}
+.content_main .userAllInfo .targetLabel{
+	display: inline-block;
+	float: left;
+}
+.content_main .userAllInfo .targetBaseInfo{
+	display: inline-block;
+	float: right;
+}
+.content_main .userAllInfo .targetBaseInfo .colorWhite{
+	color: #ffffff;
+}
+.content_main .userAllInfo .targetBaseInfo .color339DE7{
+	color: #339DE7;
+}
+
+/*用户统计信息等样式*/
+.content_main .userDynamicInfor{
+	display: inline-block;
+	margin-left: 8px;
+	margin-bottom: 8px;
+	float: left;
+	border: solid 1px #5BBDFE;
+}
+.content_main .userDynamicInfor .countLogoTitle{
+	width: 100%;
+	height: 40px;
+	line-height: 40px;
+}
+.content_main .userDynamicInfor .countLogoTitle span{
+	color: #2F95DC;
+	margin-left: 10px;
+}
+
+/*机卡信息样式*/
+.content_main .cardInformation {
+	display: inline-block;
+	margin-left: 8px;
+	margin-bottom: 8px;
+	border: solid 1px #5BBDFE;
+	float: right;
+}
+.content_main .cardInformation .cardInfoTitle{
+	width: 100%;
+	height: 40px;
+	line-height: 40px;
+}
+.content_main .cardInformation .cardInfoTitle span{
+	color: #2F95DC;
+	margin-left: 10px;
+}
+.content_main .cardInformation .ant-table-body .ant-table-thead tr th{
+	background-color: #073262 !important;
+	color: #ffffff !important;
+	border: solid 0px #fff !important;
+}
+.content_main .cardInformation .ant-table-body .ant-table-tbody tr td{
+	border: solid 0px #fff !important;
+	color: #fff;
+	text-align: center;
+}
+.content_main .cardInformation .ant-table-body .ant-table-tbody > tr:hover > td{
+	background-color: #286aa1 !important;
+}
+/*分页*/
+.content_main .cardInformation .ant-pagination li {
+	border: solid 1px #2F95DC !important;
+	margin-right: 4px;
+}
+.content_main .cardInformation .ant-pagination li a{
+	color: #ffffff;
+}
+.content_main .cardInformation .ant-pagination .ant-pagination-item-active{
+	background-color: #2f95dc;
+}
+
+
+/*用户属性页面下方三张表*/
+/*下方的三张表*/
+.userBelowContent .regularContact{
+	display: inline-block;
+	float: left;
+	margin-right: 8px;
+	border: solid 1px #5BBDFE;
+}
+.userBelowContent .regularContact .ant-tabs-bar .ant-tabs-nav-scroll{
+	background-color: #073262;
+	color: #ffffff;
+}
+.userBelowContent .regularContact .ant-tabs-bar{
+	margin: 0 0 1px 0;
+}
+/*用户移动轨迹*/
+.userBelowContent .userTrajectory{
+	display: inline-block;
+	float: right;
+	border: solid 1px #5BBDFE;
+}
+.userBelowContent .userTrajectory .ant-tabs-bar .ant-tabs-nav-scroll{
+	background-color: #073262;
+	color: #ffffff;
+}
+.userBelowContent .userTrajectory .ant-tabs-bar{
+		margin: 0 0 1px 0;
+}
+/*选项卡移动上去样式可改*/
+/*.userBelowContent .regularContact .ant-tabs-bar .ant-tabs-nav-scroll .ant-tabs-tab:hover{
+	color:#ffffff;
+}*/
+.userBelowContent .regularContact .ant-tabs-content .ant-table-content .ant-table-thead tr th {
+		background-color: #073262;
+		color: #ffffff;
+		border: solid 0px #fff !important;
+}
+.userBelowContent .regularContact .ant-tabs-content .ant-table-body .ant-table-tbody tr td{
+	border: solid 0px #fff !important;
+	color: #fff;
+	text-align: center;
+}
+.userBelowContent .regularContact .ant-tabs-content .ant-table-tbody > tr:hover > td{
+	background-color: #286aa1 !important;
+}
+/*用户移动轨迹*/
+.userBelowContent .userTrajectory .ant-tabs-content .ant-table-content .ant-table-thead tr th {
+		background-color: #073262;
+		color: #ffffff;
+		border: solid 0px #fff !important;
+}
+.userBelowContent .userTrajectory .ant-tabs-content .ant-table-body .ant-table-tbody tr td{
+		border: solid 0px #fff !important;
+		color: #fff;
+		text-align: center;
+}
+.userBelowContent .userTrajectory  .ant-tabs-content .ant-table-tbody > tr:hover > td{
+	background-color: #286aa1 !important;
+}
+/*用户页面所有的table不要padding*/
+.content_main table{
+	padding: 0px !important;
+}
+.content_main .ant-table-small{
+	border: solid 0px #ffffff;
+}
+/*电脑屏幕分辨率兼容性适配*/
+ /* ant-tabs-tab*/
+
+/*适配1920*/
+@media screen and (max-width: 1920px) {
+	/*用户维度信息*/
+	.content_main .userAllInfo{
+		height: 380px;
+		width: 550px;
+		display: inline-block;
+	}
+	/*用户通联信息*/
+	.content_main .userDynamicInfor{
+		height: 380px;
+		width: 600px;
+	}
+	.content_main .userDynamicInfor .react_for_echarts{
+		height: 336px !important;
+	}
+	.content_main .userAllInfo .targetBaseInfo{
+		width: 300px;
+		/*margin-left: 40px;*/
+		margin-top: 20px;
+		margin-right: 10px;
+	}
+	.content_main .userAllInfo .targetLabel{
+		width: 200px;
+		margin-left: 20px;
+	}
+	.content_main .userAllInfo .targetLabel .tagMes{
+		width: 200px;
+		display: flex;
+		justify-content: space-between;
+		flex-wrap:wrap;
+	}
+	.content_main .userAllInfo .targetLabel .tagMes span{
+		display: inline-block;
+		color: #ffffff;
+		padding: 6px;
+		margin-bottom: 10px;
+		width: 60px;
+		height: 30px;
+		border-radius: 4px;
+	}
+	.content_main .userAllInfo .recentInformation{
+	  width: 320px;
+		margin-top: 20px;
+		margin-left: 20px;
+	}
+	/*整体p标签的间距*/
+	.content_main .userAllInfo p{
+		margin-bottom: 14px;
+	}
+/*机卡关系信息*/
+  .content_main .cardInformation{
+		width: 512px;
+		height: 380px;
+	}
+	/*下方的三张表*/
+	.userBelowContent .regularContact{
+		width: 550px;
+		height: 540px;
+	}
+	.userBelowContent .userTrajectory{
+		width: 1121px;
+		height: 540px;
+	}
+
+}
+
+/*适配1680*/
+@media screen and (max-width: 1680px)  {
+
+}
+
+/*适配1600*/
+@media screen and (max-width: 1600px) {
+
+}
+
+/*适配1366*/
+@media screen and (max-width: 1366px) {
+
+}
